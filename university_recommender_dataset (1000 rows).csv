@@ -1,0 +1,1001 @@
+Student_ID,Undergrad_University,BTech_Major,Course_Applied,GRE_Quant,GRE_Verbal,TOEFL_Score,Undergrad_CGPA,Research_Experience,Num_Research_Papers,Num_Patents,Internship_Months,Competitions,Work_Experience_Months,Relevant_Work_Exp,University_Rating_Pref,Target_University
+S0001,IIT Delhi,IT,AI,164,156,96,6.69,Yes,2,0,13,None,47,Yes,1,University of North Carolina at Chapel Hill
+S0002,NIT Trichy,CS,CS,165,151,104,8.29,No,0,0,5,None,9,Yes,1,University of Notre Dame
+S0003,Pune University,CE,DS,166,145,109,8.3,No,0,0,14,None,16,No,5,UC Berkeley
+S0004,Mumbai University,EE,IS,168,161,96,7.95,No,0,0,17,National,0,No,2,University of Washington
+S0005,VIT Vellore,ECE,IS,163,149,99,8.44,No,0,0,6,None,18,Yes,3,University of North Carolina at Chapel Hill
+S0006,Pune University,IT,DS,168,163,101,8.45,No,0,0,4,None,44,Yes,1,University of Florida
+S0007,IIT Bombay,CS,CS,170,147,102,8.4,No,0,0,5,International,0,No,4,University of Southern California
+S0008,BITS Pilani,CE,CS,170,153,113,7.95,No,0,0,10,National,0,No,5,Northeastern University
+S0009,SRM University,ECE,CE,162,152,95,7.85,No,0,0,8,None,22,No,4,University of Notre Dame
+S0010,Pune University,CE,CS,163,148,99,8,No,0,0,7,International,50,No,5,MIT
+S0011,SRM University,ECE,IS,167,158,113,7.79,Yes,1,2,15,International,27,No,1,Stanford University
+S0012,VIT Vellore,EE,IS,159,158,110,8.76,No,0,0,10,International,0,No,4,University of Florida
+S0013,VIT Vellore,CE,DS,167,158,102,8.04,Yes,3,0,10,None,16,Yes,1,Pennsylvania State University
+S0014,Mumbai University,CS,DS,168,160,97,8.28,No,0,0,4,International,0,No,2,Stanford University
+S0015,IIT Madras,ECE,CS,157,146,100,8.61,No,0,0,10,None,38,Yes,2,University of Illinois Urbana-Champaign
+S0016,IIT Bombay,EE,IS,158,153,113,7.77,Yes,3,2,9,None,55,Yes,5,Georgia Tech
+S0017,Mumbai University,EE,CE,162,154,96,7.53,Yes,2,0,15,International,17,Yes,4,Pennsylvania State University
+S0018,VIT Vellore,IT,CS,165,151,102,7.79,No,0,0,4,None,54,Yes,4,University of Illinois Urbana-Champaign
+S0019,IIT Bombay,IT,AI,164,155,117,8.33,Yes,1,0,13,None,35,Yes,5,Arizona State University
+S0020,IIT Madras,IT,IS,156,156,100,8.3,Yes,2,0,8,None,32,No,3,University of Minnesota
+S0021,NIT Trichy,IT,CS,168,155,119,8.4,No,0,0,5,None,41,Yes,4,MIT
+S0022,BITS Pilani,IT,AI,159,152,111,8.15,No,0,0,8,International,29,No,3,University of Wisconsin–Madison
+S0023,BITS Pilani,CE,CS,165,145,98,6.98,No,0,0,16,None,10,No,5,University of Notre Dame
+S0024,IIT Madras,CE,IS,161,158,119,8.13,No,0,0,1,None,29,Yes,4,University of Washington
+S0025,Pune University,ECE,CS,155,158,113,8.68,No,0,0,2,None,49,No,5,Purdue University
+S0026,IIIT Hyderabad,IT,CS,162,159,103,8.82,Yes,3,0,7,National,24,Yes,2,University of Texas at Austin
+S0027,Pune University,IT,IS,162,157,95,8.24,No,0,0,2,International,53,Yes,4,University of Southern California
+S0028,Pune University,CE,CS,156,160,113,8.3,Yes,3,0,3,International,35,Yes,5,Georgia Tech
+S0029,IIT Delhi,CS,IS,157,155,115,8.51,Yes,2,0,8,None,0,No,2,Stanford University
+S0030,VIT Vellore,IT,DS,166,148,119,8.8,No,0,0,9,International,28,Yes,2,Stony Brook University
+S0031,Mumbai University,CS,DS,157,153,100,8.2,Yes,2,0,16,National,30,Yes,5,Arizona State University
+S0032,IIT Madras,CS,CS,157,156,100,8.5,Yes,1,0,8,National,55,No,1,Northeastern University
+S0033,Mumbai University,IT,DS,165,150,111,7.92,No,0,0,17,None,35,Yes,4,Stony Brook University
+S0034,VIT Vellore,CS,CE,167,151,100,7.59,Yes,3,0,18,National,0,No,4,MIT
+S0035,SRM University,EE,IS,165,165,106,7.97,Yes,1,0,0,National,57,Yes,4,Pennsylvania State University
+S0036,Pune University,ECE,IS,157,149,98,8.93,No,0,0,17,National,24,Yes,5,Ohio State University
+S0037,BITS Pilani,CS,CE,156,165,105,8.51,Yes,3,0,9,None,37,Yes,2,Northeastern University
+S0038,IIT Madras,EE,DS,163,155,108,7.63,No,0,0,16,None,21,Yes,1,Ohio State University
+S0039,IIT Madras,ECE,DS,157,149,111,8.54,No,0,0,3,None,9,Yes,1,University of Notre Dame
+S0040,IIT Bombay,CE,DS,157,152,96,7.66,Yes,3,0,2,International,54,Yes,5,University of Southern California
+S0041,IIT Madras,CS,IS,156,154,108,8.39,Yes,2,0,4,None,0,No,4,University of Washington
+S0042,Pune University,EE,CS,167,162,98,7.75,Yes,3,0,7,None,11,Yes,1,University of Illinois Urbana-Champaign
+S0043,Pune University,EE,DS,159,150,118,7.61,No,0,0,16,None,19,No,5,University of Washington
+S0044,IIT Delhi,EE,CE,162,146,108,9.02,Yes,3,0,16,None,48,Yes,5,Carnegie Mellon University
+S0045,IIT Madras,ECE,DS,158,158,103,8.04,No,0,0,15,None,9,No,2,Stony Brook University
+S0046,IIIT Hyderabad,IT,CE,158,152,99,8.5,No,0,0,7,International,29,Yes,2,MIT
+S0047,IIT Delhi,ECE,AI,155,165,101,8.22,No,0,0,0,None,16,Yes,1,University of Southern California
+S0048,BITS Pilani,ECE,IS,167,161,116,7.7,Yes,3,2,4,None,42,No,2,Pennsylvania State University
+S0049,NIT Trichy,EE,CS,168,146,103,8.09,Yes,2,0,14,National,0,No,3,Northeastern University
+S0050,IIT Bombay,ECE,CS,160,158,119,7.7,Yes,3,1,11,None,0,No,3,Arizona State University
+S0051,NIT Trichy,EE,CS,160,160,102,9.41,No,0,0,4,None,13,Yes,5,Stanford University
+S0052,SRM University,IT,AI,163,156,111,8.59,Yes,1,2,16,National,0,No,5,Northeastern University
+S0053,Mumbai University,IT,CS,163,152,119,8.21,No,0,0,17,International,52,Yes,5,University of Wisconsin–Madison
+S0054,Pune University,IT,AI,165,162,108,8.47,No,0,0,0,None,11,No,4,University of Illinois Urbana-Champaign
+S0055,IIT Madras,ECE,CE,161,165,107,8.56,No,0,0,18,National,9,Yes,2,University of Florida
+S0056,BITS Pilani,CS,CS,166,160,119,8.56,Yes,2,0,13,International,0,No,5,Purdue University
+S0057,IIT Bombay,IT,IS,156,151,109,8.54,No,0,0,2,None,23,Yes,2,Georgia Tech
+S0058,IIT Delhi,ECE,AI,156,153,95,8.5,No,0,0,13,None,14,Yes,2,University of Southern California
+S0059,Mumbai University,ECE,DS,158,147,120,8.25,Yes,3,0,7,None,28,Yes,1,University of Illinois Urbana-Champaign
+S0060,NIT Trichy,IT,IS,165,148,97,8.97,No,0,0,7,International,14,Yes,3,Stony Brook University
+S0061,NIT Trichy,CE,DS,155,148,115,8.28,No,0,0,8,None,0,No,1,Pennsylvania State University
+S0062,IIT Bombay,IT,DS,161,149,104,8.23,No,0,0,14,None,0,No,2,Stanford University
+S0063,BITS Pilani,ECE,IS,159,147,100,8.29,No,0,0,0,None,0,No,4,University of Texas at Austin
+S0064,Mumbai University,CS,DS,161,147,99,8.32,No,0,0,13,None,0,No,5,Northeastern University
+S0065,SRM University,CE,CE,165,159,100,7.4,No,0,0,17,National,12,Yes,4,MIT
+S0066,IIT Madras,ECE,CS,161,145,101,7.79,No,0,0,12,National,38,Yes,2,UC Berkeley
+S0067,Pune University,IT,CE,158,162,110,8.15,Yes,3,0,4,None,53,No,2,University of Washington
+S0068,Pune University,CE,CE,157,152,112,7.38,No,0,0,10,National,0,No,5,Northeastern University
+S0069,IIT Bombay,IT,AI,168,160,101,8.21,Yes,1,0,2,National,0,No,5,Purdue University
+S0070,Mumbai University,ECE,IS,160,153,105,8.32,Yes,1,0,0,International,0,No,2,MIT
+S0071,IIIT Hyderabad,CS,AI,161,160,120,7.57,Yes,3,0,1,National,0,No,2,Carnegie Mellon University
+S0072,BITS Pilani,ECE,IS,158,161,115,7.89,Yes,2,0,17,International,25,Yes,4,Georgia Tech
+S0073,SRM University,CS,DS,160,154,111,8.84,No,0,0,1,None,21,Yes,1,University of North Carolina at Chapel Hill
+S0074,IIIT Hyderabad,CS,AI,163,152,107,8.48,Yes,2,2,16,None,10,Yes,4,Georgia Tech
+S0075,IIT Bombay,ECE,CE,162,155,106,8.45,No,0,0,11,None,11,Yes,1,Stony Brook University
+S0076,NIT Trichy,CS,IS,161,152,108,8.77,No,0,0,17,None,17,No,5,University of Wisconsin–Madison
+S0077,IIT Bombay,IT,AI,156,153,120,7.79,Yes,1,0,8,International,53,No,3,University of Minnesota
+S0078,IIT Madras,IT,CE,170,160,102,7.57,No,0,0,12,National,12,Yes,2,University of Southern California
+S0079,IIT Bombay,CS,DS,167,164,116,8.69,Yes,1,0,9,None,0,No,4,University of Washington
+S0080,IIT Bombay,ECE,CE,168,151,98,8.16,Yes,2,0,12,None,0,No,3,MIT
+S0081,IIT Madras,CS,DS,167,152,118,7.78,No,0,0,10,National,0,No,1,Georgia Tech
+S0082,Mumbai University,EE,IS,164,158,120,9.24,Yes,2,0,16,National,35,No,3,Purdue University
+S0083,IIT Delhi,CE,CE,160,153,105,7.4,No,0,0,4,None,0,No,3,University of Florida
+S0084,Pune University,ECE,AI,164,152,101,8.29,No,0,0,6,International,0,No,5,University of Wisconsin–Madison
+S0085,IIT Madras,CE,CS,158,157,118,8.1,Yes,1,0,2,None,25,No,1,Pennsylvania State University
+S0086,SRM University,CS,CE,161,152,113,8.02,Yes,3,0,4,None,0,No,4,Northeastern University
+S0087,Pune University,CS,AI,170,155,107,7.09,Yes,3,0,17,National,0,No,2,Stanford University
+S0088,IIT Delhi,CS,AI,158,155,119,8.97,No,0,0,17,None,52,Yes,4,Carnegie Mellon University
+S0089,BITS Pilani,EE,IS,163,154,114,7.49,Yes,3,0,0,International,27,Yes,3,Stanford University
+S0090,IIT Bombay,CS,AI,164,164,97,8.07,No,0,0,16,National,0,No,3,Pennsylvania State University
+S0091,IIT Delhi,IT,IS,170,155,95,7.99,No,0,0,13,None,0,No,2,Purdue University
+S0092,IIIT Hyderabad,CE,CE,159,147,102,8.49,No,0,0,10,None,0,No,1,Carnegie Mellon University
+S0093,IIT Madras,IT,CE,168,146,106,7.4,No,0,0,10,None,35,No,1,Arizona State University
+S0094,SRM University,CS,AI,159,158,119,8.43,No,0,0,1,International,33,Yes,4,University of North Carolina at Chapel Hill
+S0095,VIT Vellore,CE,AI,155,157,99,8.29,No,0,0,2,None,0,No,2,Purdue University
+S0096,IIT Delhi,ECE,CS,166,146,108,7.87,No,0,0,5,None,9,Yes,5,Carnegie Mellon University
+S0097,IIT Bombay,CE,DS,163,154,118,8.41,No,0,0,3,None,0,No,5,University of Texas at Austin
+S0098,NIT Trichy,IT,CS,164,152,110,8.21,No,0,0,17,National,22,Yes,3,Carnegie Mellon University
+S0099,IIIT Hyderabad,CS,AI,158,156,109,9.1,No,0,0,0,National,7,Yes,1,UC Berkeley
+S0100,IIT Madras,ECE,CE,160,145,117,8.1,No,0,0,8,National,11,No,5,University of Notre Dame
+S0101,VIT Vellore,CE,CE,167,154,112,7.72,No,0,0,14,None,0,No,3,University of North Carolina at Chapel Hill
+S0102,IIIT Hyderabad,EE,CE,162,149,105,8.44,No,0,0,9,None,22,No,2,University of Texas at Austin
+S0103,IIT Bombay,IT,AI,160,152,104,8.04,No,0,0,13,None,23,Yes,5,Stanford University
+S0104,NIT Trichy,IT,IS,158,159,119,8.2,No,0,0,0,National,0,No,5,Stony Brook University
+S0105,IIT Delhi,CE,CE,162,155,116,7.57,No,0,0,11,National,0,No,5,University of Illinois Urbana-Champaign
+S0106,Pune University,ECE,AI,166,158,116,8.5,Yes,1,0,18,National,16,No,2,Pennsylvania State University
+S0107,VIT Vellore,CE,CS,159,158,116,7.96,Yes,3,0,12,None,38,Yes,5,Arizona State University
+S0108,NIT Trichy,EE,AI,159,151,120,8.33,No,0,0,18,None,0,No,2,Stanford University
+S0109,IIT Madras,EE,CE,159,152,113,9.25,No,0,0,9,International,56,No,2,Georgia Tech
+S0110,NIT Trichy,IT,AI,155,161,108,8.08,No,0,0,12,None,39,No,5,University of Southern California
+S0111,IIT Delhi,CS,AI,161,164,105,8.57,No,0,0,0,None,8,Yes,3,Purdue University
+S0112,Mumbai University,ECE,CE,157,155,96,8.11,No,0,0,5,International,42,No,4,Stanford University
+S0113,IIT Bombay,CS,CS,162,165,103,7.88,Yes,2,0,9,None,58,No,4,Stony Brook University
+S0114,VIT Vellore,IT,CE,159,156,95,8.86,No,0,0,2,National,21,Yes,4,University of Texas at Austin
+S0115,Pune University,IT,CE,157,153,95,7.27,Yes,3,0,8,None,0,No,2,University of Texas at Austin
+S0116,Mumbai University,IT,CS,166,150,101,8.7,Yes,2,2,2,None,12,Yes,2,University of Southern California
+S0117,Pune University,EE,AI,162,158,102,7.21,No,0,0,10,None,21,Yes,1,University of Wisconsin–Madison
+S0118,IIT Delhi,IT,IS,157,162,104,8.65,Yes,3,0,18,None,0,No,1,UC Berkeley
+S0119,Mumbai University,EE,CS,164,146,102,8.21,No,0,0,8,International,18,No,4,UC Berkeley
+S0120,NIT Trichy,CE,DS,160,147,95,7.72,No,0,0,2,International,34,Yes,2,Stanford University
+S0121,IIT Madras,CE,IS,160,163,112,8,Yes,2,0,14,None,43,Yes,1,Purdue University
+S0122,SRM University,IT,CE,165,158,95,8.54,Yes,3,0,0,None,28,Yes,4,University of North Carolina at Chapel Hill
+S0123,Mumbai University,EE,IS,156,157,110,9.19,Yes,2,0,4,International,6,Yes,2,University of Florida
+S0124,Mumbai University,IT,DS,162,165,106,7.42,Yes,1,1,11,None,53,No,3,University of Texas at Austin
+S0125,VIT Vellore,CE,DS,157,161,115,7.75,No,0,0,5,None,24,Yes,4,Ohio State University
+S0126,IIIT Hyderabad,CS,CE,163,152,108,7.53,No,0,0,17,None,36,Yes,1,University of Minnesota
+S0127,BITS Pilani,CS,CE,162,162,108,8.11,No,0,0,8,National,0,No,5,University of Texas at Austin
+S0128,BITS Pilani,CE,CE,157,165,97,8.66,Yes,2,0,16,None,60,Yes,4,Northeastern University
+S0129,Mumbai University,ECE,DS,162,162,107,7.47,No,0,0,15,None,0,No,5,University of North Carolina at Chapel Hill
+S0130,NIT Trichy,ECE,IS,157,164,97,8.19,No,0,0,14,None,23,Yes,5,Carnegie Mellon University
+S0131,IIIT Hyderabad,EE,CE,170,149,99,8.64,Yes,3,2,1,National,23,Yes,2,UC Berkeley
+S0132,IIT Delhi,ECE,AI,163,145,116,7.99,No,0,0,11,National,18,Yes,4,MIT
+S0133,IIIT Hyderabad,CS,AI,158,150,103,6.9,No,0,0,5,National,0,No,2,Pennsylvania State University
+S0134,SRM University,EE,IS,167,151,99,8.3,Yes,3,2,7,National,10,Yes,3,Pennsylvania State University
+S0135,VIT Vellore,IT,DS,158,155,107,8.82,Yes,1,0,10,None,30,No,2,University of Texas at Austin
+S0136,BITS Pilani,EE,DS,160,157,113,7.66,Yes,3,2,11,None,0,No,4,University of Wisconsin–Madison
+S0137,BITS Pilani,ECE,AI,170,161,103,7.31,No,0,0,17,None,25,No,3,Arizona State University
+S0138,IIT Madras,IT,AI,161,154,115,8.36,No,0,0,16,International,39,Yes,2,Stanford University
+S0139,Pune University,IT,CE,165,163,102,8.37,Yes,1,1,6,None,0,No,1,Stanford University
+S0140,BITS Pilani,ECE,DS,158,151,118,7.96,Yes,3,0,13,None,0,No,4,Arizona State University
+S0141,NIT Trichy,ECE,AI,155,164,103,7.86,No,0,0,4,National,0,No,1,Purdue University
+S0142,Pune University,ECE,DS,169,157,114,8.22,No,0,0,3,National,22,Yes,2,UC Berkeley
+S0143,NIT Trichy,CS,CS,166,149,102,7.66,No,0,0,16,National,30,No,3,UC Berkeley
+S0144,SRM University,EE,IS,156,155,119,7.66,No,0,0,13,National,20,Yes,2,Stanford University
+S0145,IIT Bombay,EE,CS,165,153,112,8.54,No,0,0,18,None,17,No,3,University of Washington
+S0146,IIT Bombay,CE,DS,164,164,98,7.63,No,0,0,13,International,40,Yes,1,Pennsylvania State University
+S0147,Pune University,IT,CS,166,165,102,7.34,No,0,0,7,None,13,No,1,University of Illinois Urbana-Champaign
+S0148,BITS Pilani,ECE,AI,161,145,105,7.86,Yes,1,0,13,National,0,No,3,University of Washington
+S0149,IIT Madras,CE,CE,167,157,113,7.97,No,0,0,15,None,58,Yes,4,Stony Brook University
+S0150,NIT Trichy,ECE,IS,159,145,99,8.43,Yes,3,0,5,International,42,Yes,2,University of Minnesota
+S0151,IIT Bombay,CE,AI,159,151,97,7.9,Yes,3,2,0,National,0,No,1,University of North Carolina at Chapel Hill
+S0152,Mumbai University,CE,DS,168,153,110,8.91,Yes,3,0,11,None,11,Yes,1,University of Wisconsin–Madison
+S0153,NIT Trichy,IT,DS,166,160,109,8.24,Yes,3,0,17,National,21,No,1,University of Washington
+S0154,BITS Pilani,IT,CE,157,161,119,7.8,No,0,0,14,None,0,No,1,Carnegie Mellon University
+S0155,VIT Vellore,CS,CE,160,159,98,8.41,No,0,0,5,None,0,No,2,Purdue University
+S0156,IIIT Hyderabad,CE,DS,155,155,100,8.9,Yes,3,0,6,National,41,No,3,Stanford University
+S0157,IIIT Hyderabad,CS,CS,162,162,112,8.53,Yes,1,0,11,National,54,Yes,3,University of Southern California
+S0158,SRM University,ECE,CS,168,148,110,7.45,No,0,0,14,National,0,No,4,University of Washington
+S0159,IIT Madras,IT,AI,165,153,103,8.01,No,0,0,15,National,0,No,4,University of Florida
+S0160,IIIT Hyderabad,CE,IS,155,150,113,8.33,Yes,1,1,7,National,25,No,1,University of Florida
+S0161,IIT Delhi,EE,CS,159,163,112,8.5,No,0,0,16,None,36,No,1,Pennsylvania State University
+S0162,IIT Bombay,ECE,IS,156,162,101,8.11,Yes,1,2,15,National,57,Yes,5,University of Wisconsin–Madison
+S0163,IIIT Hyderabad,EE,CS,161,156,116,8.04,No,0,0,5,None,48,No,1,University of Minnesota
+S0164,IIT Delhi,CS,CS,164,152,107,9.1,No,0,0,18,International,0,No,1,University of Wisconsin–Madison
+S0165,BITS Pilani,IT,DS,157,145,119,8.53,Yes,3,2,18,National,0,No,2,University of Southern California
+S0166,NIT Trichy,ECE,CE,161,146,114,8.41,No,0,0,0,National,0,No,5,Pennsylvania State University
+S0167,NIT Trichy,CS,CE,158,149,107,7.92,Yes,1,0,3,None,57,No,4,University of Illinois Urbana-Champaign
+S0168,NIT Trichy,IT,AI,158,164,119,7.65,No,0,0,2,None,0,No,2,Purdue University
+S0169,Pune University,CS,CE,156,159,99,8.42,No,0,0,16,National,0,No,5,University of Washington
+S0170,IIT Delhi,CS,CS,161,158,107,8.59,Yes,3,0,14,National,27,Yes,3,University of North Carolina at Chapel Hill
+S0171,IIT Bombay,CS,AI,164,145,120,8.2,No,0,0,12,National,46,Yes,3,Stony Brook University
+S0172,IIT Bombay,IT,CE,164,157,99,8.53,Yes,3,1,11,National,38,No,1,Carnegie Mellon University
+S0173,IIT Delhi,CE,CE,166,149,119,8.55,No,0,0,15,International,0,No,4,Stony Brook University
+S0174,Mumbai University,IT,CS,161,158,106,8.62,No,0,0,17,None,60,Yes,1,Stanford University
+S0175,IIT Madras,CS,DS,155,149,110,7.44,No,0,0,13,None,25,Yes,3,University of Washington
+S0176,Pune University,IT,CE,156,159,118,8.02,No,0,0,2,None,0,No,2,Pennsylvania State University
+S0177,IIT Bombay,IT,CS,158,155,105,8.45,Yes,1,0,0,None,0,No,1,MIT
+S0178,Mumbai University,CS,CE,166,157,110,8.22,No,0,0,14,None,34,Yes,5,University of Florida
+S0179,BITS Pilani,ECE,CS,168,150,102,8.55,Yes,1,1,14,None,9,No,5,Carnegie Mellon University
+S0180,Mumbai University,CS,DS,155,158,112,8.41,Yes,2,0,2,None,0,No,1,Pennsylvania State University
+S0181,SRM University,CS,CS,169,148,99,7.12,No,0,0,3,International,28,Yes,1,Georgia Tech
+S0182,VIT Vellore,EE,AI,162,146,109,8.75,No,0,0,10,None,7,Yes,3,Ohio State University
+S0183,NIT Trichy,ECE,DS,167,150,98,7.96,No,0,0,0,None,19,No,3,University of Southern California
+S0184,NIT Trichy,EE,IS,163,160,95,7.77,Yes,3,0,6,National,50,No,4,Ohio State University
+S0185,VIT Vellore,IT,AI,166,163,97,8.73,No,0,0,4,National,0,No,3,University of Southern California
+S0186,VIT Vellore,EE,IS,158,154,105,8.51,No,0,0,0,National,0,No,5,University of Notre Dame
+S0187,NIT Trichy,EE,AI,163,146,95,8.81,No,0,0,8,National,60,Yes,5,University of Minnesota
+S0188,IIT Madras,CE,AI,165,152,116,8.33,No,0,0,2,None,0,No,5,Stanford University
+S0189,SRM University,CS,CE,164,165,114,8.02,No,0,0,12,National,22,Yes,2,University of Florida
+S0190,NIT Trichy,CE,IS,158,158,107,8.27,No,0,0,9,None,48,Yes,4,University of Southern California
+S0191,IIT Madras,CS,IS,170,163,103,7.69,Yes,1,0,13,None,58,Yes,5,University of Notre Dame
+S0192,IIT Madras,CE,CE,158,164,109,7.52,No,0,0,2,National,0,No,4,University of Illinois Urbana-Champaign
+S0193,IIT Bombay,CS,DS,169,146,111,7.89,No,0,0,17,International,9,No,1,MIT
+S0194,IIT Madras,CS,CE,157,152,106,8.97,No,0,0,18,National,22,No,1,University of Texas at Austin
+S0195,Mumbai University,EE,AI,164,161,95,7.93,No,0,0,2,International,48,Yes,2,University of Wisconsin–Madison
+S0196,IIT Bombay,CS,IS,166,161,111,7.35,No,0,0,7,National,20,No,5,University of Illinois Urbana-Champaign
+S0197,IIT Bombay,CS,AI,163,162,96,8.12,No,0,0,10,None,41,Yes,1,University of Minnesota
+S0198,IIT Madras,CE,IS,157,165,116,7.93,Yes,1,0,15,National,24,Yes,4,University of Notre Dame
+S0199,SRM University,CE,DS,169,157,113,8.76,No,0,0,15,National,0,No,3,Carnegie Mellon University
+S0200,IIT Delhi,CS,CS,157,163,108,8.92,Yes,2,2,7,None,57,Yes,5,Arizona State University
+S0201,IIT Delhi,ECE,IS,166,148,119,7.99,No,0,0,18,National,31,Yes,3,University of Southern California
+S0202,Pune University,CE,IS,164,164,107,8.33,Yes,1,0,13,None,20,Yes,1,University of Southern California
+S0203,IIT Bombay,CE,CS,158,157,99,8.37,Yes,2,0,7,International,19,Yes,5,MIT
+S0204,IIIT Hyderabad,IT,CS,167,162,117,8.18,No,0,0,1,International,10,Yes,5,University of Florida
+S0205,NIT Trichy,CE,CE,157,158,95,8.08,No,0,0,2,None,42,Yes,2,University of Washington
+S0206,BITS Pilani,CE,DS,161,158,98,7.74,Yes,2,0,0,None,37,Yes,5,University of Washington
+S0207,Mumbai University,EE,CS,155,150,106,7.28,No,0,0,8,National,0,No,5,Stony Brook University
+S0208,Mumbai University,EE,CS,156,151,117,7.74,Yes,1,0,13,None,8,Yes,1,University of Southern California
+S0209,SRM University,IT,CS,156,162,112,8.16,No,0,0,0,International,0,No,3,University of Southern California
+S0210,Mumbai University,EE,CS,168,161,98,7.48,No,0,0,10,National,35,No,5,University of Southern California
+S0211,VIT Vellore,CE,CE,162,163,107,8.3,No,0,0,17,None,35,Yes,1,University of Notre Dame
+S0212,BITS Pilani,ECE,CE,163,155,120,8.23,No,0,0,3,None,10,Yes,4,MIT
+S0213,BITS Pilani,IT,IS,156,156,98,7.93,Yes,1,0,1,None,25,Yes,4,University of North Carolina at Chapel Hill
+S0214,IIT Delhi,EE,CS,162,158,117,8.06,No,0,0,3,National,14,Yes,4,University of Notre Dame
+S0215,Pune University,CS,AI,164,149,104,7.55,No,0,0,18,None,45,No,3,Stanford University
+S0216,SRM University,CE,IS,168,160,108,8.61,Yes,2,0,9,None,33,Yes,5,Purdue University
+S0217,Pune University,CE,IS,164,155,102,8.61,Yes,3,0,0,None,0,No,4,University of Washington
+S0218,VIT Vellore,IT,DS,168,155,117,7.63,Yes,1,0,10,National,43,Yes,4,University of Notre Dame
+S0219,IIT Bombay,IT,AI,160,149,104,7.64,Yes,2,0,15,National,21,No,5,University of North Carolina at Chapel Hill
+S0220,Mumbai University,EE,AI,158,147,100,7.74,Yes,1,2,8,National,22,Yes,5,Ohio State University
+S0221,Pune University,CS,IS,167,160,117,8.48,No,0,0,17,None,0,No,5,UC Berkeley
+S0222,BITS Pilani,EE,AI,163,159,99,8.37,No,0,0,13,National,33,Yes,2,University of North Carolina at Chapel Hill
+S0223,Mumbai University,IT,AI,161,161,103,8.72,Yes,2,0,13,None,24,No,1,Arizona State University
+S0224,NIT Trichy,CE,CS,160,156,103,8.78,No,0,0,5,None,9,No,5,Stanford University
+S0225,BITS Pilani,ECE,CS,163,146,96,7.43,No,0,0,13,None,0,No,4,Northeastern University
+S0226,BITS Pilani,IT,DS,157,148,99,8.46,No,0,0,4,International,20,Yes,4,Purdue University
+S0227,IIIT Hyderabad,CS,IS,169,157,119,8.76,Yes,3,2,5,None,42,Yes,4,Carnegie Mellon University
+S0228,IIT Bombay,CS,IS,166,145,115,8.03,No,0,0,2,National,43,Yes,2,University of Wisconsin–Madison
+S0229,Pune University,EE,CE,162,155,118,8.19,No,0,0,4,None,34,Yes,3,MIT
+S0230,Pune University,CS,AI,157,157,109,8.11,No,0,0,9,National,8,Yes,3,University of Washington
+S0231,IIT Madras,ECE,CS,163,158,96,8.13,No,0,0,6,International,34,Yes,5,University of Southern California
+S0232,IIT Delhi,EE,CE,158,145,115,8.61,No,0,0,10,None,0,No,4,Arizona State University
+S0233,SRM University,CE,CS,167,164,113,9.07,No,0,0,18,National,40,No,5,University of Notre Dame
+S0234,Pune University,ECE,CS,170,163,117,8.89,Yes,2,1,4,None,37,No,5,UC Berkeley
+S0235,SRM University,EE,CS,160,153,99,7.95,No,0,0,17,National,0,No,2,Carnegie Mellon University
+S0236,IIT Delhi,CE,AI,159,148,115,8.33,No,0,0,15,None,41,Yes,2,Ohio State University
+S0237,SRM University,CE,AI,161,150,99,7.81,Yes,1,0,5,International,6,Yes,4,University of Southern California
+S0238,VIT Vellore,CS,AI,155,161,115,7.85,No,0,0,17,International,27,Yes,5,UC Berkeley
+S0239,Mumbai University,ECE,DS,166,157,120,8.17,Yes,1,0,7,International,15,Yes,1,University of Washington
+S0240,IIIT Hyderabad,CE,AI,170,153,108,7.84,No,0,0,17,National,12,No,5,University of Notre Dame
+S0241,BITS Pilani,CS,AI,155,151,118,7.91,No,0,0,0,None,48,Yes,3,Purdue University
+S0242,BITS Pilani,CE,IS,169,147,105,8.32,Yes,3,1,12,None,0,No,4,Pennsylvania State University
+S0243,BITS Pilani,ECE,AI,157,152,104,8.45,Yes,2,0,3,None,0,No,5,University of Minnesota
+S0244,NIT Trichy,CS,CE,155,156,119,8.44,No,0,0,6,None,0,No,2,University of Florida
+S0245,VIT Vellore,CE,CE,167,150,107,8.44,No,0,0,0,National,23,Yes,5,University of Washington
+S0246,Mumbai University,EE,CE,170,164,97,7.58,Yes,2,0,13,None,20,No,1,University of Washington
+S0247,IIIT Hyderabad,IT,DS,155,147,99,7.82,No,0,0,11,None,36,Yes,2,Stony Brook University
+S0248,VIT Vellore,CS,CS,157,162,95,8.22,No,0,0,18,None,10,Yes,5,University of Minnesota
+S0249,BITS Pilani,CS,IS,170,159,104,8.74,No,0,0,4,None,0,No,1,University of Southern California
+S0250,Mumbai University,CE,CE,159,153,97,9.38,No,0,0,18,None,0,No,2,Stony Brook University
+S0251,IIT Bombay,CE,IS,165,161,113,8.35,Yes,1,0,8,National,44,Yes,5,University of Texas at Austin
+S0252,BITS Pilani,ECE,CS,170,146,105,8.56,No,0,0,16,None,0,No,3,Northeastern University
+S0253,NIT Trichy,CS,CE,155,146,97,7.53,No,0,0,7,International,34,No,4,University of Washington
+S0254,IIT Bombay,IT,DS,163,160,100,8.55,No,0,0,17,National,59,Yes,1,Arizona State University
+S0255,Mumbai University,EE,CE,160,150,117,9.2,Yes,2,0,13,None,53,No,3,University of Minnesota
+S0256,Pune University,EE,AI,156,156,112,7.82,No,0,0,1,None,47,Yes,4,MIT
+S0257,Mumbai University,CS,CS,160,158,97,7.93,No,0,0,1,National,0,No,5,Arizona State University
+S0258,IIT Bombay,IT,AI,156,159,97,8.63,No,0,0,18,None,36,Yes,1,Stanford University
+S0259,SRM University,CE,CS,165,154,102,8.21,No,0,0,4,National,22,Yes,2,MIT
+S0260,VIT Vellore,ECE,DS,163,153,110,7.24,No,0,0,13,International,8,Yes,2,Northeastern University
+S0261,NIT Trichy,IT,CS,157,151,119,7.95,No,0,0,2,None,0,No,5,University of Wisconsin–Madison
+S0262,IIIT Hyderabad,EE,DS,160,147,109,8.92,No,0,0,6,International,31,Yes,2,University of Southern California
+S0263,BITS Pilani,IT,IS,156,157,103,8.06,No,0,0,13,None,0,No,5,MIT
+S0264,IIT Delhi,ECE,CS,161,162,104,8.06,No,0,0,10,International,56,Yes,2,Carnegie Mellon University
+S0265,SRM University,CS,CS,165,146,109,8.6,No,0,0,8,National,18,Yes,1,Pennsylvania State University
+S0266,BITS Pilani,EE,DS,161,163,100,8.37,No,0,0,0,National,46,Yes,1,University of Wisconsin–Madison
+S0267,NIT Trichy,ECE,AI,158,152,98,8.03,No,0,0,3,None,0,No,1,University of Illinois Urbana-Champaign
+S0268,IIT Bombay,ECE,CS,169,157,96,7.89,No,0,0,5,None,6,Yes,2,UC Berkeley
+S0269,BITS Pilani,ECE,AI,160,145,97,9.67,No,0,0,5,None,16,No,1,Stony Brook University
+S0270,IIT Bombay,EE,AI,157,155,98,8.82,Yes,3,0,11,International,26,Yes,5,Stony Brook University
+S0271,BITS Pilani,CS,IS,164,146,110,8.44,Yes,2,0,4,None,37,No,5,University of Illinois Urbana-Champaign
+S0272,BITS Pilani,CS,DS,157,146,95,8.47,No,0,0,9,International,42,No,1,University of Minnesota
+S0273,IIT Delhi,CE,AI,155,153,106,8.14,Yes,1,0,13,None,58,Yes,1,Stony Brook University
+S0274,SRM University,ECE,CE,158,152,115,8.36,Yes,3,0,5,International,17,Yes,3,University of Florida
+S0275,IIIT Hyderabad,ECE,DS,156,156,107,8.09,Yes,1,0,15,National,24,Yes,4,University of North Carolina at Chapel Hill
+S0276,SRM University,CS,AI,167,159,110,7.77,Yes,3,0,15,National,0,No,2,University of Florida
+S0277,IIT Delhi,CE,CS,164,163,117,8.38,No,0,0,11,International,6,Yes,2,University of Wisconsin–Madison
+S0278,BITS Pilani,ECE,AI,161,150,115,8.04,Yes,1,0,12,None,0,No,1,Pennsylvania State University
+S0279,NIT Trichy,CE,CS,160,163,96,8.41,No,0,0,18,National,10,Yes,1,Arizona State University
+S0280,Mumbai University,CS,AI,156,165,108,8.5,No,0,0,1,None,6,Yes,4,University of Notre Dame
+S0281,SRM University,ECE,DS,155,149,98,8.44,Yes,2,0,4,National,45,Yes,4,Carnegie Mellon University
+S0282,BITS Pilani,CE,CE,169,155,113,7.74,No,0,0,2,None,29,Yes,4,University of Wisconsin–Madison
+S0283,Pune University,IT,DS,168,150,120,7.99,Yes,3,1,11,National,8,Yes,1,Carnegie Mellon University
+S0284,IIIT Hyderabad,IT,AI,169,148,97,8.05,No,0,0,5,None,0,No,2,Stanford University
+S0285,VIT Vellore,IT,AI,160,147,106,8.69,No,0,0,16,National,54,No,3,University of Florida
+S0286,IIIT Hyderabad,CS,IS,158,148,111,8.66,No,0,0,17,None,0,No,5,Carnegie Mellon University
+S0287,BITS Pilani,CE,IS,170,150,117,7.85,No,0,0,12,National,0,No,3,Georgia Tech
+S0288,IIT Delhi,EE,CE,161,147,112,7.57,No,0,0,4,National,51,No,3,UC Berkeley
+S0289,BITS Pilani,ECE,AI,158,161,99,9.41,Yes,2,0,5,National,25,Yes,2,UC Berkeley
+S0290,IIT Bombay,IT,AI,163,147,103,8.42,Yes,2,0,4,International,33,Yes,3,MIT
+S0291,IIIT Hyderabad,CE,DS,155,149,118,7.51,No,0,0,0,None,42,Yes,2,UC Berkeley
+S0292,IIT Delhi,IT,DS,169,160,106,7.92,No,0,0,4,National,9,Yes,2,Purdue University
+S0293,SRM University,CS,IS,165,146,108,8.71,Yes,1,0,11,National,43,Yes,4,Arizona State University
+S0294,BITS Pilani,EE,CE,158,164,112,9.24,Yes,1,0,5,International,8,No,1,Arizona State University
+S0295,NIT Trichy,ECE,IS,156,150,113,9.14,No,0,0,16,None,0,No,5,University of Washington
+S0296,IIT Madras,CS,CE,167,157,100,8.39,Yes,1,0,6,International,0,No,1,Carnegie Mellon University
+S0297,BITS Pilani,EE,CE,166,158,107,6.88,No,0,0,1,None,48,Yes,5,Ohio State University
+S0298,VIT Vellore,ECE,CS,156,154,113,8.2,Yes,2,0,1,None,48,Yes,5,University of Notre Dame
+S0299,IIT Delhi,IT,CE,168,156,95,7.69,Yes,3,0,14,None,33,Yes,1,University of Notre Dame
+S0300,Mumbai University,ECE,DS,163,151,120,8.24,No,0,0,4,International,46,Yes,3,Georgia Tech
+S0301,IIT Madras,IT,AI,156,162,118,7.75,No,0,0,3,National,0,No,2,University of Wisconsin–Madison
+S0302,IIT Madras,CS,CE,167,153,102,8,Yes,2,0,4,National,45,No,2,UC Berkeley
+S0303,BITS Pilani,CS,CS,162,152,102,8.63,Yes,1,0,1,International,0,No,3,UC Berkeley
+S0304,SRM University,EE,IS,155,156,118,8.08,Yes,2,0,12,International,0,No,3,University of Florida
+S0305,NIT Trichy,EE,CE,163,165,105,8.05,No,0,0,11,International,19,No,3,University of Texas at Austin
+S0306,VIT Vellore,EE,CE,167,147,108,8.17,Yes,2,0,10,None,6,Yes,3,MIT
+S0307,IIIT Hyderabad,ECE,CE,157,155,100,9.51,No,0,0,4,None,36,Yes,4,University of Notre Dame
+S0308,IIT Bombay,CS,DS,155,159,103,7.64,Yes,2,0,18,International,14,No,3,University of Wisconsin–Madison
+S0309,Pune University,ECE,CE,161,152,120,8.34,No,0,0,13,International,15,Yes,1,Pennsylvania State University
+S0310,NIT Trichy,CE,IS,162,159,102,9.08,Yes,3,0,0,National,0,No,5,Pennsylvania State University
+S0311,BITS Pilani,IT,DS,158,147,106,8.17,No,0,0,14,None,0,No,2,University of Illinois Urbana-Champaign
+S0312,IIT Delhi,ECE,CS,160,158,111,8.81,No,0,0,8,None,56,Yes,1,University of Texas at Austin
+S0313,NIT Trichy,IT,DS,155,161,108,7.54,No,0,0,4,None,20,Yes,4,Ohio State University
+S0314,BITS Pilani,EE,DS,161,159,95,8.1,Yes,1,0,1,International,26,Yes,4,Ohio State University
+S0315,SRM University,CS,AI,166,155,115,7.8,No,0,0,1,None,35,Yes,2,Stony Brook University
+S0316,Mumbai University,ECE,DS,165,159,116,8.17,No,0,0,6,None,6,No,1,Pennsylvania State University
+S0317,IIT Delhi,EE,CE,157,160,100,8.18,No,0,0,6,None,18,No,5,MIT
+S0318,VIT Vellore,IT,AI,160,163,118,8.23,No,0,0,15,National,17,No,3,Ohio State University
+S0319,IIT Delhi,IT,DS,160,149,115,8.62,No,0,0,14,None,42,Yes,2,Purdue University
+S0320,Pune University,ECE,CS,170,152,120,7.08,Yes,1,1,2,National,7,No,5,MIT
+S0321,NIT Trichy,CS,CE,160,157,114,7.9,No,0,0,3,National,41,Yes,1,Stony Brook University
+S0322,Mumbai University,CS,IS,158,149,107,8.31,Yes,3,0,17,None,36,Yes,2,Pennsylvania State University
+S0323,Mumbai University,EE,IS,163,162,103,7.26,No,0,0,15,None,0,No,2,UC Berkeley
+S0324,IIT Delhi,IT,DS,159,150,117,8.51,No,0,0,3,National,44,Yes,5,Stony Brook University
+S0325,IIT Bombay,IT,DS,166,157,96,7.89,Yes,3,0,10,None,37,Yes,4,Stony Brook University
+S0326,IIT Delhi,CS,AI,156,153,107,8.11,No,0,0,15,None,0,No,3,Northeastern University
+S0327,IIT Delhi,CE,CS,158,165,112,8.65,Yes,1,0,2,None,18,Yes,3,University of Washington
+S0328,VIT Vellore,IT,CE,170,156,107,8.84,Yes,3,1,1,None,0,No,2,Stanford University
+S0329,Mumbai University,ECE,AI,168,153,97,8.53,Yes,3,0,13,None,0,No,4,Northeastern University
+S0330,IIIT Hyderabad,IT,CE,165,159,112,7.63,No,0,0,5,None,36,Yes,2,Stanford University
+S0331,VIT Vellore,IT,AI,157,164,115,8.5,No,0,0,4,National,8,No,5,University of Florida
+S0332,IIT Delhi,EE,CE,167,159,112,8.53,No,0,0,14,None,24,Yes,4,MIT
+S0333,NIT Trichy,EE,DS,157,164,119,8.43,Yes,2,0,0,None,16,Yes,5,University of Texas at Austin
+S0334,NIT Trichy,CE,IS,166,152,115,8.93,No,0,0,18,International,28,Yes,1,University of Texas at Austin
+S0335,VIT Vellore,ECE,CS,161,145,111,8.24,No,0,0,18,National,0,No,1,Georgia Tech
+S0336,IIT Bombay,CS,CE,157,156,95,8.91,No,0,0,15,International,14,Yes,3,University of Wisconsin–Madison
+S0337,NIT Trichy,CS,AI,155,149,108,8.9,No,0,0,14,None,15,Yes,4,Carnegie Mellon University
+S0338,IIT Madras,CE,IS,169,154,97,8.55,No,0,0,6,None,17,Yes,3,Carnegie Mellon University
+S0339,Pune University,CS,IS,162,156,105,8.35,No,0,0,15,None,24,Yes,4,University of Minnesota
+S0340,IIIT Hyderabad,IT,IS,169,147,98,8.43,No,0,0,18,National,10,Yes,2,University of Texas at Austin
+S0341,Pune University,ECE,CE,169,145,100,9.05,Yes,1,0,14,None,0,No,1,Ohio State University
+S0342,BITS Pilani,CE,CS,165,164,107,8.74,Yes,2,0,13,None,0,No,3,University of North Carolina at Chapel Hill
+S0343,IIT Delhi,ECE,CS,157,154,114,7.68,Yes,3,0,18,None,43,No,3,Northeastern University
+S0344,IIT Madras,CE,IS,164,152,113,8.4,No,0,0,13,None,22,Yes,5,University of Washington
+S0345,IIT Bombay,IT,DS,156,163,105,7.78,No,0,0,4,National,59,No,5,University of Illinois Urbana-Champaign
+S0346,SRM University,CE,CS,158,152,100,7.87,Yes,1,0,18,None,0,No,4,UC Berkeley
+S0347,Pune University,EE,CS,164,161,106,8.01,Yes,3,0,13,None,0,No,2,University of Minnesota
+S0348,Pune University,IT,AI,156,154,103,7.5,No,0,0,9,None,8,Yes,1,University of Florida
+S0349,Pune University,IT,CS,158,149,119,7.75,Yes,3,0,10,International,33,Yes,2,Pennsylvania State University
+S0350,BITS Pilani,CE,CS,170,145,112,8.96,No,0,0,2,International,42,Yes,3,University of Wisconsin–Madison
+S0351,SRM University,ECE,DS,163,155,107,7.87,Yes,1,2,17,None,0,No,2,University of Wisconsin–Madison
+S0352,IIT Delhi,EE,DS,159,146,102,8.63,Yes,2,1,13,None,9,Yes,5,University of Southern California
+S0353,VIT Vellore,CE,IS,155,146,112,8.29,No,0,0,10,National,34,Yes,5,University of Illinois Urbana-Champaign
+S0354,Pune University,IT,AI,170,159,104,8.48,Yes,2,0,9,None,0,No,5,University of Southern California
+S0355,BITS Pilani,CS,DS,160,162,114,8.5,No,0,0,13,None,11,No,2,UC Berkeley
+S0356,IIT Delhi,IT,DS,159,164,120,7.73,Yes,1,1,12,National,0,No,1,University of North Carolina at Chapel Hill
+S0357,IIT Delhi,CS,DS,161,153,108,8.62,No,0,0,2,National,57,No,3,Pennsylvania State University
+S0358,Pune University,EE,IS,159,160,114,7.58,No,0,0,10,None,0,No,3,University of Texas at Austin
+S0359,IIT Delhi,CS,AI,160,152,118,7.85,No,0,0,8,International,0,No,3,MIT
+S0360,IIT Bombay,CS,DS,164,159,97,8.49,No,0,0,18,International,0,No,4,University of Wisconsin–Madison
+S0361,IIT Bombay,IT,DS,164,146,106,7.7,Yes,3,0,8,National,23,No,4,Stanford University
+S0362,NIT Trichy,ECE,CS,168,148,114,7.22,No,0,0,5,International,7,Yes,5,University of Southern California
+S0363,NIT Trichy,IT,IS,159,155,111,8.37,No,0,0,2,None,0,No,5,Stanford University
+S0364,BITS Pilani,EE,IS,164,153,111,7.42,No,0,0,4,International,21,Yes,1,University of Wisconsin–Madison
+S0365,IIT Bombay,CS,DS,157,147,96,8.54,Yes,2,0,1,None,17,No,5,Ohio State University
+S0366,Pune University,CS,IS,156,160,104,8.05,No,0,0,7,National,17,Yes,3,University of Illinois Urbana-Champaign
+S0367,BITS Pilani,IT,CE,165,148,110,8.37,Yes,1,1,12,National,13,Yes,1,UC Berkeley
+S0368,BITS Pilani,ECE,DS,159,148,107,8.36,Yes,3,0,8,National,48,Yes,2,University of North Carolina at Chapel Hill
+S0369,Pune University,CE,DS,161,154,104,8.58,Yes,1,0,16,None,54,Yes,4,Ohio State University
+S0370,Pune University,IT,AI,166,164,116,8.51,Yes,3,0,2,National,0,No,4,Purdue University
+S0371,NIT Trichy,ECE,CE,160,157,108,7.69,No,0,0,6,None,34,Yes,3,Stanford University
+S0372,IIT Bombay,EE,IS,170,155,120,8.08,Yes,2,0,0,None,34,Yes,5,Stony Brook University
+S0373,IIT Bombay,CS,CS,160,149,113,8.37,Yes,1,0,13,None,10,No,5,University of Illinois Urbana-Champaign
+S0374,VIT Vellore,IT,IS,162,159,116,8.92,No,0,0,4,National,11,Yes,2,University of Wisconsin–Madison
+S0375,Pune University,EE,IS,157,155,116,8.51,Yes,3,2,17,None,12,Yes,5,University of Texas at Austin
+S0376,Pune University,CS,CS,162,150,97,8.86,No,0,0,2,None,39,Yes,1,Stanford University
+S0377,BITS Pilani,ECE,CE,158,156,112,8.39,Yes,2,0,17,None,45,Yes,5,University of North Carolina at Chapel Hill
+S0378,Mumbai University,CE,CS,163,162,112,8.75,Yes,2,0,4,International,0,No,4,University of Notre Dame
+S0379,IIT Bombay,CE,CE,170,159,115,8.32,No,0,0,7,International,22,No,4,University of North Carolina at Chapel Hill
+S0380,IIT Madras,EE,CS,158,164,108,8.72,No,0,0,6,None,11,No,4,Purdue University
+S0381,IIT Bombay,IT,AI,161,150,95,8.02,Yes,1,0,8,National,0,No,4,University of Washington
+S0382,SRM University,CE,AI,157,160,114,8.98,No,0,0,13,National,0,No,5,Stony Brook University
+S0383,Mumbai University,IT,CE,161,148,118,8.45,No,0,0,1,None,19,No,2,University of Minnesota
+S0384,Pune University,CS,AI,166,151,118,7.5,Yes,2,1,6,International,6,Yes,2,University of Minnesota
+S0385,IIT Madras,IT,CE,162,162,117,8.38,Yes,2,0,5,International,0,No,5,UC Berkeley
+S0386,IIIT Hyderabad,CS,AI,169,157,112,7.15,No,0,0,5,International,49,No,2,Purdue University
+S0387,SRM University,IT,CE,167,151,101,8.51,No,0,0,13,International,8,Yes,5,University of North Carolina at Chapel Hill
+S0388,VIT Vellore,IT,IS,169,148,102,8.64,No,0,0,9,International,36,Yes,5,MIT
+S0389,IIT Bombay,IT,DS,159,148,116,9.18,No,0,0,16,National,47,Yes,5,University of Wisconsin–Madison
+S0390,Mumbai University,CE,IS,165,145,107,7.95,No,0,0,15,None,0,No,3,Stony Brook University
+S0391,IIIT Hyderabad,IT,AI,158,165,103,9.18,Yes,1,0,14,National,0,No,5,University of Wisconsin–Madison
+S0392,Mumbai University,ECE,CE,168,163,112,8.2,No,0,0,17,National,17,No,1,University of Notre Dame
+S0393,IIT Bombay,EE,IS,166,157,112,7.83,Yes,1,0,11,National,9,Yes,5,University of Notre Dame
+S0394,SRM University,CE,CE,160,155,105,7.96,Yes,2,0,0,National,45,Yes,5,University of North Carolina at Chapel Hill
+S0395,Pune University,EE,CS,170,149,119,8.48,No,0,0,13,National,15,Yes,4,Northeastern University
+S0396,NIT Trichy,CS,CE,155,162,120,7.76,No,0,0,9,National,21,Yes,5,University of Wisconsin–Madison
+S0397,IIT Madras,EE,CS,157,161,101,8.03,No,0,0,16,International,9,Yes,4,Stanford University
+S0398,SRM University,ECE,DS,167,163,112,8.37,No,0,0,3,International,15,Yes,3,University of Texas at Austin
+S0399,BITS Pilani,CS,CE,160,165,111,8.98,No,0,0,0,None,39,No,2,Pennsylvania State University
+S0400,VIT Vellore,IT,IS,156,157,107,8.63,Yes,3,0,0,International,11,Yes,5,Pennsylvania State University
+S0401,Mumbai University,IT,AI,161,146,105,8.22,No,0,0,17,National,25,Yes,1,Northeastern University
+S0402,SRM University,ECE,IS,162,145,99,8.48,No,0,0,14,National,0,No,2,Arizona State University
+S0403,Pune University,ECE,IS,167,148,113,8.32,No,0,0,11,National,6,Yes,3,University of Southern California
+S0404,IIIT Hyderabad,IT,IS,164,158,109,7.62,No,0,0,16,National,59,Yes,5,University of Minnesota
+S0405,NIT Trichy,IT,IS,156,145,98,9.08,No,0,0,6,None,0,No,2,Stony Brook University
+S0406,IIT Madras,ECE,CS,163,149,114,8.99,No,0,0,1,None,14,Yes,4,MIT
+S0407,BITS Pilani,IT,CS,156,157,99,8.16,No,0,0,4,None,35,Yes,4,MIT
+S0408,IIT Bombay,ECE,IS,160,150,100,7.97,Yes,1,0,6,International,0,No,1,University of Notre Dame
+S0409,IIT Madras,EE,CS,170,157,104,7.63,No,0,0,10,None,13,Yes,2,Ohio State University
+S0410,SRM University,IT,CS,155,160,97,8.51,No,0,0,9,None,0,No,5,Ohio State University
+S0411,Pune University,CS,DS,167,149,116,8.51,Yes,1,0,2,International,0,No,2,University of Southern California
+S0412,NIT Trichy,EE,DS,168,153,112,7.8,No,0,0,7,National,23,Yes,3,Pennsylvania State University
+S0413,IIT Bombay,IT,CE,164,150,116,8.33,No,0,0,4,National,16,No,3,Purdue University
+S0414,NIT Trichy,ECE,CE,157,159,97,8.61,Yes,1,0,1,None,0,No,4,Northeastern University
+S0415,IIT Madras,ECE,IS,162,156,115,7.94,Yes,1,2,9,None,0,No,5,Purdue University
+S0416,IIT Madras,CE,IS,161,153,104,8.1,No,0,0,6,None,13,Yes,2,Pennsylvania State University
+S0417,Mumbai University,CE,DS,168,147,120,8.1,Yes,1,2,16,International,49,Yes,5,MIT
+S0418,SRM University,IT,CE,157,156,120,7.83,Yes,3,0,0,None,0,No,1,UC Berkeley
+S0419,BITS Pilani,IT,AI,169,154,108,8.11,Yes,3,1,7,None,0,No,5,University of Southern California
+S0420,IIIT Hyderabad,CS,CS,168,160,101,7.43,Yes,2,0,15,None,18,Yes,1,Georgia Tech
+S0421,IIT Madras,IT,DS,167,149,113,8.07,No,0,0,8,International,0,No,3,Purdue University
+S0422,Pune University,CE,CE,155,146,98,8.08,Yes,3,0,15,None,53,No,3,University of Texas at Austin
+S0423,IIT Bombay,CS,AI,168,161,104,8.17,No,0,0,5,National,18,Yes,5,University of Southern California
+S0424,IIT Madras,CE,CE,169,163,106,8.44,No,0,0,17,International,60,Yes,5,University of Texas at Austin
+S0425,BITS Pilani,CE,DS,158,163,96,7.6,Yes,1,0,18,None,23,Yes,1,UC Berkeley
+S0426,IIT Bombay,ECE,CE,161,165,114,7.68,No,0,0,14,International,36,No,5,Georgia Tech
+S0427,IIT Madras,ECE,CS,158,153,120,7.82,No,0,0,13,None,33,Yes,5,University of Wisconsin–Madison
+S0428,Mumbai University,CS,DS,161,165,95,7.55,Yes,3,0,13,International,0,No,2,MIT
+S0429,IIIT Hyderabad,EE,CE,157,153,105,8.5,No,0,0,0,National,57,No,5,Georgia Tech
+S0430,IIT Bombay,CS,IS,169,163,96,7.92,Yes,1,0,13,International,0,No,3,University of Illinois Urbana-Champaign
+S0431,Mumbai University,ECE,CE,155,159,118,8.18,Yes,3,0,4,National,6,Yes,2,University of Illinois Urbana-Champaign
+S0432,IIIT Hyderabad,CS,AI,162,162,99,7.78,No,0,0,15,None,26,Yes,4,University of North Carolina at Chapel Hill
+S0433,Pune University,CE,AI,165,162,120,8.02,Yes,3,0,1,None,0,No,4,University of North Carolina at Chapel Hill
+S0434,IIT Delhi,EE,AI,165,161,110,8.35,Yes,2,1,2,None,17,Yes,2,University of Florida
+S0435,IIT Delhi,ECE,DS,156,145,115,8.37,Yes,2,0,13,None,26,Yes,3,University of Southern California
+S0436,VIT Vellore,EE,DS,170,163,100,7.7,Yes,1,1,7,None,0,No,2,Northeastern University
+S0437,SRM University,IT,IS,170,150,109,8.16,Yes,1,0,13,International,26,Yes,2,University of Illinois Urbana-Champaign
+S0438,IIT Madras,IT,CE,157,157,120,7.78,Yes,1,0,13,None,34,Yes,3,Pennsylvania State University
+S0439,IIT Delhi,ECE,CE,164,158,103,8.14,Yes,2,0,1,None,0,No,4,Northeastern University
+S0440,IIT Delhi,CS,CS,159,160,108,7.88,Yes,1,0,16,International,0,No,3,University of Washington
+S0441,NIT Trichy,CS,CE,162,163,105,9.12,No,0,0,0,National,24,Yes,5,University of Texas at Austin
+S0442,Pune University,CE,DS,160,161,112,8.61,No,0,0,8,International,22,No,3,Ohio State University
+S0443,Mumbai University,IT,CS,169,149,110,8.4,Yes,2,0,0,National,53,No,1,Pennsylvania State University
+S0444,VIT Vellore,ECE,AI,161,154,101,7.24,No,0,0,16,International,0,No,4,Purdue University
+S0445,NIT Trichy,ECE,CE,162,152,101,8.06,No,0,0,15,None,0,No,1,Carnegie Mellon University
+S0446,IIIT Hyderabad,CS,CE,158,156,101,8.62,No,0,0,13,International,0,No,2,Northeastern University
+S0447,BITS Pilani,ECE,DS,156,153,97,8.17,No,0,0,5,International,13,No,3,Northeastern University
+S0448,NIT Trichy,EE,DS,155,153,119,9.05,Yes,1,2,15,National,0,No,5,Pennsylvania State University
+S0449,IIT Delhi,IT,CS,166,152,112,8.68,No,0,0,1,National,28,No,2,Arizona State University
+S0450,IIT Bombay,ECE,CE,169,145,113,8.02,No,0,0,17,None,48,No,5,University of Illinois Urbana-Champaign
+S0451,VIT Vellore,IT,DS,160,156,97,8.98,No,0,0,9,National,0,No,2,Georgia Tech
+S0452,IIT Bombay,EE,AI,158,162,114,8.06,Yes,1,0,16,None,0,No,4,Carnegie Mellon University
+S0453,Pune University,IT,CE,167,159,117,9.15,No,0,0,1,International,0,No,5,Northeastern University
+S0454,BITS Pilani,IT,IS,168,149,97,9.01,No,0,0,6,None,0,No,3,University of Notre Dame
+S0455,NIT Trichy,EE,CE,165,145,96,8.35,Yes,1,2,0,None,20,Yes,1,Stony Brook University
+S0456,NIT Trichy,IT,DS,157,148,101,7.44,No,0,0,12,National,29,Yes,4,University of Wisconsin–Madison
+S0457,NIT Trichy,IT,DS,158,145,120,8.31,No,0,0,10,International,0,No,4,Carnegie Mellon University
+S0458,Mumbai University,EE,AI,160,162,120,7.65,No,0,0,2,None,0,No,2,University of Southern California
+S0459,VIT Vellore,CS,DS,162,154,104,7.9,No,0,0,4,None,10,Yes,3,Pennsylvania State University
+S0460,IIT Bombay,IT,CE,163,147,99,7.93,No,0,0,0,National,59,No,4,University of Southern California
+S0461,IIT Bombay,EE,CE,155,151,116,7.65,Yes,3,0,10,None,35,Yes,4,Stony Brook University
+S0462,IIIT Hyderabad,ECE,CE,155,149,103,8.31,No,0,0,11,National,17,Yes,1,University of Texas at Austin
+S0463,IIIT Hyderabad,CS,CS,157,150,120,7.84,No,0,0,12,International,28,No,4,University of North Carolina at Chapel Hill
+S0464,IIT Madras,EE,CE,168,161,116,8.08,No,0,0,6,None,7,Yes,4,Pennsylvania State University
+S0465,IIT Madras,CS,CE,162,159,116,7.93,No,0,0,2,International,0,No,3,University of Wisconsin–Madison
+S0466,IIIT Hyderabad,CE,DS,157,158,104,8.44,Yes,2,0,16,International,30,No,2,UC Berkeley
+S0467,IIT Delhi,ECE,DS,163,162,103,8.4,No,0,0,8,None,36,Yes,5,UC Berkeley
+S0468,SRM University,EE,CS,163,158,100,8.05,Yes,1,0,6,National,57,Yes,1,University of Southern California
+S0469,BITS Pilani,ECE,AI,161,151,95,8.47,Yes,1,0,12,None,15,Yes,2,University of Texas at Austin
+S0470,IIIT Hyderabad,CS,CE,155,145,111,8.81,No,0,0,18,International,0,No,1,Carnegie Mellon University
+S0471,Pune University,CE,AI,167,163,119,7.16,No,0,0,4,International,10,No,5,MIT
+S0472,SRM University,CE,IS,156,157,95,7.91,No,0,0,10,None,38,No,5,Northeastern University
+S0473,VIT Vellore,EE,CS,167,152,96,7.73,Yes,3,0,18,National,0,No,1,UC Berkeley
+S0474,Mumbai University,IT,IS,157,148,111,7.87,No,0,0,10,None,25,Yes,3,University of Minnesota
+S0475,SRM University,IT,CE,164,149,95,7.08,Yes,2,0,0,None,12,Yes,4,University of Texas at Austin
+S0476,Pune University,EE,CS,167,163,114,7.14,No,0,0,9,National,44,Yes,2,Carnegie Mellon University
+S0477,Pune University,CS,AI,159,153,115,6.83,No,0,0,4,National,23,Yes,2,University of North Carolina at Chapel Hill
+S0478,IIT Delhi,CE,IS,164,145,99,7.95,No,0,0,12,None,22,Yes,3,Purdue University
+S0479,BITS Pilani,IT,IS,162,156,115,7.94,No,0,0,13,None,36,Yes,1,Pennsylvania State University
+S0480,IIT Madras,CS,DS,158,162,99,8.89,No,0,0,10,None,9,Yes,2,Carnegie Mellon University
+S0481,BITS Pilani,ECE,CE,155,154,116,8.27,No,0,0,12,None,7,Yes,1,University of Notre Dame
+S0482,IIT Madras,EE,IS,155,146,97,7.13,Yes,1,0,14,None,59,No,2,University of Minnesota
+S0483,IIT Bombay,CE,IS,157,156,97,8.45,Yes,3,0,17,National,6,Yes,3,MIT
+S0484,IIT Delhi,ECE,CS,167,146,104,10,No,0,0,4,International,43,Yes,1,Stanford University
+S0485,Mumbai University,CE,AI,165,152,95,7.16,Yes,3,0,6,International,51,Yes,3,Pennsylvania State University
+S0486,SRM University,EE,AI,170,158,112,9.06,Yes,2,0,4,International,27,No,5,Carnegie Mellon University
+S0487,VIT Vellore,EE,IS,166,157,99,8.18,No,0,0,8,International,55,No,4,UC Berkeley
+S0488,SRM University,EE,CE,163,164,104,7.99,No,0,0,2,National,24,Yes,1,Stanford University
+S0489,VIT Vellore,CS,CE,164,161,113,7.92,No,0,0,9,International,10,Yes,2,University of Notre Dame
+S0490,IIT Madras,CS,CS,168,157,112,8.36,Yes,1,1,13,International,25,Yes,3,University of Southern California
+S0491,IIIT Hyderabad,IT,AI,167,153,120,7.99,Yes,1,0,3,National,25,Yes,1,Pennsylvania State University
+S0492,SRM University,IT,IS,162,145,116,7.63,No,0,0,9,None,27,Yes,5,Stony Brook University
+S0493,IIT Bombay,CS,CE,163,163,120,7.93,No,0,0,0,International,44,Yes,1,University of Texas at Austin
+S0494,Mumbai University,CS,DS,157,150,106,8.38,Yes,3,0,2,International,43,Yes,4,UC Berkeley
+S0495,Pune University,ECE,CE,168,145,102,8.54,No,0,0,3,National,26,No,2,University of Minnesota
+S0496,IIT Bombay,CS,DS,158,164,109,9.12,No,0,0,18,National,0,No,3,Stony Brook University
+S0497,Pune University,CS,DS,164,160,98,8.25,Yes,3,0,3,National,20,Yes,1,University of Texas at Austin
+S0498,VIT Vellore,IT,CS,156,161,103,8.85,Yes,3,2,14,International,47,Yes,1,UC Berkeley
+S0499,IIT Delhi,EE,CS,162,155,111,8.1,Yes,1,0,17,National,33,Yes,2,Purdue University
+S0500,NIT Trichy,CE,AI,162,159,98,8.17,No,0,0,3,None,23,No,4,University of Wisconsin–Madison
+S0501,IIT Bombay,IT,DS,167,153,110,8.14,No,0,0,3,National,46,Yes,4,University of Notre Dame
+S0502,SRM University,CS,AI,160,154,112,8.31,Yes,3,0,11,National,0,No,2,University of Wisconsin–Madison
+S0503,IIT Madras,ECE,DS,159,151,107,8.63,No,0,0,5,International,9,No,4,University of Minnesota
+S0504,IIIT Hyderabad,EE,CE,166,159,103,7.97,Yes,2,1,11,None,0,No,5,Ohio State University
+S0505,BITS Pilani,IT,AI,165,146,118,7.76,Yes,2,0,4,None,51,Yes,3,University of Southern California
+S0506,Pune University,CE,CS,160,154,101,8.68,No,0,0,3,National,33,Yes,3,Purdue University
+S0507,SRM University,CS,DS,155,145,104,8.64,No,0,0,13,National,38,Yes,2,Purdue University
+S0508,Pune University,IT,AI,166,147,107,8.94,No,0,0,11,National,53,Yes,4,University of Illinois Urbana-Champaign
+S0509,IIT Delhi,IT,CE,165,152,104,7.9,No,0,0,2,None,39,Yes,4,Arizona State University
+S0510,VIT Vellore,ECE,DS,170,161,120,8.09,No,0,0,13,International,9,Yes,3,University of Southern California
+S0511,Mumbai University,IT,CE,157,159,110,8.7,Yes,1,2,11,National,0,No,3,University of Minnesota
+S0512,IIT Madras,IT,IS,156,164,109,7.97,Yes,3,0,4,None,15,No,3,Carnegie Mellon University
+S0513,IIT Madras,EE,IS,169,149,96,8.52,Yes,2,1,6,None,0,No,4,MIT
+S0514,IIT Madras,EE,CE,162,160,116,8.1,No,0,0,6,None,45,Yes,2,MIT
+S0515,NIT Trichy,ECE,AI,164,161,105,8.36,No,0,0,5,None,0,No,3,Carnegie Mellon University
+S0516,VIT Vellore,CE,IS,159,159,100,7.63,No,0,0,9,International,20,Yes,4,Purdue University
+S0517,VIT Vellore,IT,DS,170,147,117,8.24,Yes,2,2,12,None,28,Yes,5,UC Berkeley
+S0518,VIT Vellore,CE,IS,156,158,116,6.7,No,0,0,8,National,52,Yes,2,Northeastern University
+S0519,IIT Bombay,CS,CS,166,152,103,8.8,Yes,1,0,4,None,24,No,3,University of Texas at Austin
+S0520,IIIT Hyderabad,EE,IS,163,145,105,8.59,Yes,3,0,13,None,29,No,4,University of North Carolina at Chapel Hill
+S0521,BITS Pilani,ECE,CS,160,158,97,7.73,No,0,0,0,None,0,No,2,Arizona State University
+S0522,NIT Trichy,IT,IS,159,159,118,9.07,Yes,1,0,5,International,0,No,1,Ohio State University
+S0523,NIT Trichy,ECE,IS,168,164,98,8.77,No,0,0,3,None,0,No,5,University of Southern California
+S0524,SRM University,ECE,AI,164,153,112,7.65,No,0,0,17,None,41,No,5,Carnegie Mellon University
+S0525,Pune University,IT,CE,160,150,95,7.94,No,0,0,13,International,0,No,3,Arizona State University
+S0526,IIT Bombay,EE,CS,170,147,96,7.67,No,0,0,0,International,50,No,2,Pennsylvania State University
+S0527,Mumbai University,EE,DS,169,146,105,8.38,No,0,0,1,None,0,No,4,University of Florida
+S0528,IIT Bombay,ECE,CS,167,163,102,7.91,No,0,0,14,None,14,Yes,5,University of Southern California
+S0529,Pune University,CE,DS,156,157,119,7.24,No,0,0,8,None,34,Yes,5,University of North Carolina at Chapel Hill
+S0530,BITS Pilani,CS,CE,162,164,102,8.17,Yes,3,1,5,National,41,Yes,4,Arizona State University
+S0531,IIT Delhi,ECE,AI,164,163,108,8.66,Yes,2,0,14,None,16,Yes,3,University of Illinois Urbana-Champaign
+S0532,BITS Pilani,IT,CE,170,153,114,8.25,No,0,0,18,None,0,No,5,University of Washington
+S0533,VIT Vellore,ECE,AI,168,160,106,8.47,No,0,0,0,None,23,No,5,Pennsylvania State University
+S0534,IIT Bombay,CE,AI,160,150,119,8.3,Yes,2,0,9,International,0,No,3,University of North Carolina at Chapel Hill
+S0535,SRM University,CE,AI,162,150,100,8.57,Yes,1,0,0,International,0,No,2,Stony Brook University
+S0536,BITS Pilani,ECE,CS,156,148,114,8.34,No,0,0,7,International,15,Yes,1,University of Illinois Urbana-Champaign
+S0537,IIT Delhi,EE,CE,164,151,114,8.14,Yes,1,0,9,International,18,Yes,5,University of North Carolina at Chapel Hill
+S0538,Pune University,ECE,CE,162,148,99,8.25,No,0,0,8,National,41,Yes,3,Northeastern University
+S0539,IIIT Hyderabad,EE,CS,159,146,98,8.96,Yes,2,0,2,None,15,Yes,1,Stanford University
+S0540,VIT Vellore,IT,CE,163,165,97,8.5,No,0,0,14,None,31,Yes,4,University of Wisconsin–Madison
+S0541,Mumbai University,IT,AI,170,156,102,7.72,No,0,0,4,International,33,Yes,5,Carnegie Mellon University
+S0542,VIT Vellore,ECE,IS,158,149,117,8.24,Yes,3,0,14,International,0,No,5,University of North Carolina at Chapel Hill
+S0543,IIT Bombay,CE,CS,165,149,103,8.37,Yes,1,0,2,None,13,Yes,3,Pennsylvania State University
+S0544,IIT Delhi,IT,AI,158,154,102,8.12,No,0,0,1,National,51,Yes,2,Purdue University
+S0545,IIT Madras,EE,CE,159,156,117,7.25,No,0,0,4,None,8,No,3,MIT
+S0546,BITS Pilani,CE,AI,160,145,104,7.77,No,0,0,15,None,19,No,2,MIT
+S0547,IIT Delhi,IT,DS,168,156,98,7.99,Yes,3,0,5,None,28,No,3,UC Berkeley
+S0548,Pune University,CE,CS,166,161,111,9.14,Yes,3,0,10,National,0,No,2,University of Notre Dame
+S0549,Pune University,CE,CS,167,160,99,8.44,No,0,0,5,None,42,Yes,3,Stony Brook University
+S0550,BITS Pilani,CS,CE,167,150,112,7.43,Yes,1,0,0,National,23,No,4,Pennsylvania State University
+S0551,IIT Bombay,ECE,IS,160,162,108,8.15,Yes,2,0,0,None,36,Yes,3,Stony Brook University
+S0552,Mumbai University,ECE,CE,160,164,95,8.86,No,0,0,13,None,32,Yes,4,Stony Brook University
+S0553,Pune University,ECE,CS,156,163,106,7.91,No,0,0,5,None,32,Yes,2,UC Berkeley
+S0554,IIIT Hyderabad,CS,AI,157,163,102,8.72,Yes,1,0,5,None,0,No,5,MIT
+S0555,IIT Delhi,EE,AI,156,158,95,7.44,No,0,0,4,None,27,Yes,1,Pennsylvania State University
+S0556,VIT Vellore,CS,IS,168,149,107,6.78,Yes,3,0,11,None,0,No,2,UC Berkeley
+S0557,IIT Delhi,ECE,IS,157,159,108,8.8,No,0,0,7,National,12,Yes,5,Pennsylvania State University
+S0558,IIT Madras,ECE,AI,168,154,99,7.97,No,0,0,3,None,0,No,2,Stony Brook University
+S0559,NIT Trichy,IT,IS,170,157,111,7.27,Yes,2,0,1,None,28,Yes,2,University of Minnesota
+S0560,IIIT Hyderabad,CS,CS,168,147,110,8.01,Yes,2,2,14,None,8,Yes,2,Georgia Tech
+S0561,IIT Madras,IT,AI,160,154,112,8.3,Yes,2,1,2,National,0,No,4,University of Florida
+S0562,BITS Pilani,IT,CE,167,163,103,8.42,No,0,0,0,None,33,Yes,2,Stanford University
+S0563,VIT Vellore,IT,IS,156,153,117,6.96,No,0,0,6,National,0,No,1,Carnegie Mellon University
+S0564,Pune University,CE,CS,162,161,105,7.87,No,0,0,10,None,0,No,4,University of Wisconsin–Madison
+S0565,IIT Madras,IT,CS,155,146,113,8.23,No,0,0,15,National,14,Yes,4,University of Washington
+S0566,Mumbai University,ECE,DS,169,161,111,8.42,Yes,1,0,12,National,8,No,3,MIT
+S0567,VIT Vellore,ECE,IS,169,149,116,7.72,No,0,0,7,None,35,Yes,1,University of Notre Dame
+S0568,SRM University,ECE,CE,156,146,99,8.1,No,0,0,5,National,9,Yes,1,University of Minnesota
+S0569,NIT Trichy,CE,IS,155,154,102,7.91,Yes,2,0,7,National,44,Yes,2,Stony Brook University
+S0570,IIT Delhi,CS,IS,170,165,109,8.31,No,0,0,0,International,21,No,5,University of North Carolina at Chapel Hill
+S0571,IIT Bombay,IT,DS,168,158,110,8.78,No,0,0,8,National,25,Yes,5,Pennsylvania State University
+S0572,VIT Vellore,ECE,DS,165,164,120,8.03,No,0,0,12,None,12,Yes,2,University of Notre Dame
+S0573,SRM University,CE,CE,170,157,95,7.51,No,0,0,10,National,46,No,3,Georgia Tech
+S0574,IIIT Hyderabad,IT,DS,158,159,96,7.85,Yes,3,0,2,National,18,Yes,4,Stony Brook University
+S0575,IIT Delhi,IT,AI,157,157,119,9.07,Yes,3,0,0,None,36,No,5,University of Wisconsin–Madison
+S0576,IIIT Hyderabad,CS,CE,160,160,98,7.77,No,0,0,13,National,0,No,2,MIT
+S0577,NIT Trichy,CS,IS,155,162,108,7.6,No,0,0,9,National,11,Yes,2,Carnegie Mellon University
+S0578,IIIT Hyderabad,CE,DS,157,152,105,8,Yes,3,0,0,None,17,No,4,Pennsylvania State University
+S0579,Pune University,EE,CE,160,147,114,8.15,Yes,3,0,0,None,0,No,3,Carnegie Mellon University
+S0580,IIT Delhi,CE,CE,163,152,120,7.94,Yes,1,0,2,None,23,Yes,1,Ohio State University
+S0581,VIT Vellore,EE,CS,162,148,105,7.44,No,0,0,16,National,60,Yes,4,University of Florida
+S0582,IIT Madras,CE,DS,157,155,95,8.36,Yes,2,0,3,None,55,Yes,3,University of Washington
+S0583,Pune University,EE,AI,161,145,111,8.31,No,0,0,1,National,34,Yes,5,University of Notre Dame
+S0584,IIT Bombay,CE,IS,160,165,119,8.55,Yes,2,0,10,National,57,Yes,5,Arizona State University
+S0585,SRM University,CE,CS,160,165,115,8.3,No,0,0,8,None,0,No,5,University of Wisconsin–Madison
+S0586,Mumbai University,CE,IS,158,150,120,9.02,No,0,0,12,None,23,No,2,Arizona State University
+S0587,IIIT Hyderabad,CS,IS,156,165,119,8.59,No,0,0,13,None,0,No,2,Georgia Tech
+S0588,BITS Pilani,CE,IS,160,165,103,8.48,Yes,3,0,15,International,0,No,3,Pennsylvania State University
+S0589,IIT Bombay,ECE,DS,166,151,108,8.8,No,0,0,18,None,40,Yes,2,Arizona State University
+S0590,Pune University,IT,CE,163,163,109,8.27,No,0,0,1,None,18,Yes,3,Stony Brook University
+S0591,IIT Delhi,EE,CS,159,154,96,8.11,Yes,1,0,13,None,30,No,3,Pennsylvania State University
+S0592,IIT Madras,CS,DS,167,153,111,8.35,No,0,0,3,None,28,Yes,5,Northeastern University
+S0593,BITS Pilani,ECE,IS,168,149,101,7.22,No,0,0,7,None,48,Yes,5,University of North Carolina at Chapel Hill
+S0594,SRM University,EE,CS,157,149,106,8.27,No,0,0,18,International,57,Yes,1,University of Illinois Urbana-Champaign
+S0595,IIT Madras,IT,CE,167,150,100,8.15,No,0,0,18,National,6,Yes,4,University of Washington
+S0596,IIIT Hyderabad,CE,IS,160,151,106,8.41,Yes,3,0,4,National,29,No,2,University of Illinois Urbana-Champaign
+S0597,IIT Delhi,ECE,CE,170,157,112,8.72,No,0,0,15,None,47,Yes,3,University of Minnesota
+S0598,Mumbai University,IT,CS,160,146,111,8.49,No,0,0,8,International,0,No,2,Arizona State University
+S0599,IIIT Hyderabad,CE,DS,157,149,99,7.85,No,0,0,0,None,0,No,4,Purdue University
+S0600,VIT Vellore,IT,CE,157,154,118,8.63,No,0,0,7,International,33,Yes,2,Stanford University
+S0601,IIT Madras,CS,AI,161,161,120,9.02,No,0,0,10,None,26,Yes,5,University of Wisconsin–Madison
+S0602,SRM University,EE,CS,167,154,100,8.74,No,0,0,4,None,6,No,2,Georgia Tech
+S0603,Pune University,CE,DS,162,155,102,7.55,Yes,2,0,13,National,31,Yes,5,University of Illinois Urbana-Champaign
+S0604,VIT Vellore,IT,CE,156,165,106,8.49,No,0,0,4,International,8,Yes,1,University of Florida
+S0605,NIT Trichy,CE,IS,168,148,111,7.62,No,0,0,10,International,10,No,3,Carnegie Mellon University
+S0606,Pune University,ECE,DS,164,160,103,8.06,Yes,1,0,2,National,21,No,1,Arizona State University
+S0607,Pune University,CS,IS,170,160,101,8.39,No,0,0,2,None,0,No,1,MIT
+S0608,IIIT Hyderabad,IT,AI,159,155,114,8.33,No,0,0,18,National,0,No,4,Stony Brook University
+S0609,IIT Delhi,IT,IS,156,151,104,8.72,No,0,0,9,International,44,Yes,5,Carnegie Mellon University
+S0610,Pune University,ECE,IS,168,145,109,9.03,No,0,0,17,None,0,No,1,UC Berkeley
+S0611,Pune University,EE,IS,165,147,119,8.45,No,0,0,2,National,37,Yes,3,University of Minnesota
+S0612,Mumbai University,EE,DS,160,162,113,8.02,Yes,2,0,6,International,55,Yes,3,Arizona State University
+S0613,SRM University,CS,CS,166,162,118,7.25,Yes,3,0,10,International,0,No,5,Stanford University
+S0614,VIT Vellore,ECE,DS,158,157,96,8.86,No,0,0,15,None,15,No,1,University of North Carolina at Chapel Hill
+S0615,IIT Madras,ECE,CS,158,162,103,8.16,No,0,0,7,National,31,Yes,5,University of North Carolina at Chapel Hill
+S0616,Pune University,IT,CE,167,157,119,8.18,Yes,3,0,7,National,35,Yes,3,Stony Brook University
+S0617,Pune University,EE,CE,155,149,107,8.22,Yes,3,0,2,International,18,No,2,University of Southern California
+S0618,IIT Delhi,IT,CS,168,149,101,8.42,Yes,1,0,14,None,33,Yes,1,University of Washington
+S0619,VIT Vellore,EE,AI,170,146,114,8.44,Yes,3,0,2,National,29,No,2,Stony Brook University
+S0620,Mumbai University,CS,DS,159,157,107,8.07,Yes,2,0,17,None,0,No,4,University of Florida
+S0621,IIT Delhi,IT,AI,158,164,115,8.15,No,0,0,9,International,31,Yes,1,Pennsylvania State University
+S0622,BITS Pilani,IT,CE,170,145,110,7.9,No,0,0,8,None,14,Yes,1,Pennsylvania State University
+S0623,SRM University,IT,DS,157,159,119,7.85,Yes,2,0,18,None,0,No,4,Pennsylvania State University
+S0624,VIT Vellore,EE,DS,168,150,102,7.84,Yes,3,0,0,None,6,Yes,5,University of Minnesota
+S0625,IIT Madras,CS,DS,166,160,112,8.14,No,0,0,0,None,18,Yes,1,University of Illinois Urbana-Champaign
+S0626,VIT Vellore,IT,AI,167,157,102,7.75,No,0,0,0,None,10,Yes,4,Ohio State University
+S0627,IIT Madras,CS,CE,158,145,101,6.75,No,0,0,18,None,37,Yes,1,University of Illinois Urbana-Champaign
+S0628,IIT Bombay,ECE,DS,155,164,103,8.01,Yes,3,1,11,National,28,No,5,Stony Brook University
+S0629,IIT Bombay,EE,AI,156,164,117,7.58,No,0,0,1,None,36,No,4,University of North Carolina at Chapel Hill
+S0630,IIT Madras,ECE,CS,163,165,113,8.25,No,0,0,1,None,53,Yes,3,Pennsylvania State University
+S0631,BITS Pilani,IT,CE,157,148,112,7.9,Yes,3,2,12,None,0,No,3,Georgia Tech
+S0632,BITS Pilani,EE,IS,160,150,114,8.43,No,0,0,11,None,21,Yes,4,University of Southern California
+S0633,VIT Vellore,CS,DS,168,148,120,7.62,No,0,0,4,None,19,Yes,2,University of Wisconsin–Madison
+S0634,VIT Vellore,EE,AI,159,151,106,7.32,No,0,0,2,None,0,No,2,MIT
+S0635,Pune University,CS,IS,162,165,97,8.15,No,0,0,3,None,7,Yes,3,University of Wisconsin–Madison
+S0636,IIT Bombay,IT,CS,164,147,101,7.99,Yes,2,0,18,None,48,No,3,Carnegie Mellon University
+S0637,IIT Delhi,CS,CS,169,163,96,7.54,Yes,2,2,2,National,35,Yes,4,Ohio State University
+S0638,IIT Madras,EE,CE,161,158,105,8.59,Yes,1,0,6,International,28,Yes,5,Ohio State University
+S0639,NIT Trichy,EE,CE,155,156,116,7.7,No,0,0,5,International,29,Yes,1,Arizona State University
+S0640,SRM University,ECE,DS,155,165,98,7.82,No,0,0,5,None,17,Yes,2,UC Berkeley
+S0641,IIIT Hyderabad,EE,DS,159,151,113,8.69,No,0,0,12,None,41,No,3,University of Wisconsin–Madison
+S0642,IIT Delhi,IT,IS,169,157,114,8.46,No,0,0,5,None,51,Yes,2,Pennsylvania State University
+S0643,IIT Delhi,CE,CS,159,146,99,7.65,Yes,1,0,8,National,6,Yes,2,University of Washington
+S0644,SRM University,ECE,CS,159,151,104,8.03,No,0,0,2,National,40,Yes,4,Stony Brook University
+S0645,BITS Pilani,ECE,AI,165,153,117,7.6,Yes,2,1,10,None,28,Yes,2,MIT
+S0646,Mumbai University,CS,AI,167,154,102,8.65,Yes,1,1,4,International,21,Yes,1,Purdue University
+S0647,VIT Vellore,CE,AI,167,157,104,8.65,No,0,0,0,International,0,No,3,Ohio State University
+S0648,Pune University,IT,IS,156,155,114,9.11,Yes,3,0,9,None,15,Yes,4,University of Southern California
+S0649,IIT Madras,CS,DS,170,153,95,9.34,No,0,0,13,None,30,Yes,4,Arizona State University
+S0650,IIT Bombay,ECE,CE,155,158,100,7.89,Yes,1,1,6,International,27,No,4,Arizona State University
+S0651,IIT Madras,EE,AI,164,163,109,8.56,Yes,3,0,18,None,42,Yes,5,Ohio State University
+S0652,NIT Trichy,CE,CE,163,164,120,7.26,Yes,3,0,16,None,24,Yes,3,UC Berkeley
+S0653,Pune University,ECE,CE,161,149,108,8.29,No,0,0,13,None,10,No,3,Pennsylvania State University
+S0654,VIT Vellore,CS,DS,158,150,117,8.41,No,0,0,17,International,57,Yes,5,University of North Carolina at Chapel Hill
+S0655,IIT Madras,CE,CS,162,153,95,7.72,Yes,1,1,13,National,0,No,2,University of Texas at Austin
+S0656,IIIT Hyderabad,CE,CS,170,154,100,7.86,No,0,0,5,None,28,Yes,1,University of Southern California
+S0657,SRM University,CE,CE,159,149,101,8.65,No,0,0,17,National,7,No,3,University of Illinois Urbana-Champaign
+S0658,Mumbai University,EE,CE,156,157,117,8.43,Yes,3,2,8,National,17,No,5,University of Wisconsin–Madison
+S0659,IIIT Hyderabad,CE,CS,167,145,119,9.03,No,0,0,16,None,0,No,4,University of Wisconsin–Madison
+S0660,IIT Delhi,CE,DS,155,164,109,8.96,Yes,2,0,1,International,54,Yes,4,University of North Carolina at Chapel Hill
+S0661,VIT Vellore,IT,AI,158,158,105,7.37,Yes,2,0,16,None,14,No,4,University of Texas at Austin
+S0662,BITS Pilani,ECE,CS,170,156,98,7.94,No,0,0,5,None,0,No,1,UC Berkeley
+S0663,VIT Vellore,CE,IS,165,161,120,7.67,No,0,0,16,International,0,No,1,University of Notre Dame
+S0664,VIT Vellore,EE,CS,163,155,98,8.58,Yes,2,0,8,None,22,No,1,University of Washington
+S0665,IIT Bombay,IT,DS,168,162,108,8.34,Yes,1,0,15,International,29,No,4,Pennsylvania State University
+S0666,IIT Delhi,CS,CE,164,153,99,7.71,No,0,0,16,National,0,No,3,Stanford University
+S0667,Pune University,CE,CE,162,145,114,7.78,No,0,0,8,National,12,Yes,4,Northeastern University
+S0668,Mumbai University,CE,IS,170,163,110,8.82,Yes,2,0,4,National,9,Yes,5,University of Minnesota
+S0669,Pune University,ECE,CS,156,159,101,7.99,Yes,2,0,15,None,22,Yes,2,Stanford University
+S0670,IIIT Hyderabad,ECE,AI,165,163,115,7.19,No,0,0,1,None,0,No,5,MIT
+S0671,IIT Madras,ECE,DS,156,152,97,7.66,Yes,3,0,4,None,55,Yes,2,University of Florida
+S0672,IIT Madras,IT,AI,162,148,113,9.16,No,0,0,14,None,23,Yes,1,Carnegie Mellon University
+S0673,IIT Madras,CS,CE,168,153,116,8.7,No,0,0,5,None,22,Yes,5,Purdue University
+S0674,BITS Pilani,CE,IS,163,148,113,7.57,No,0,0,7,National,41,Yes,3,MIT
+S0675,SRM University,EE,CE,163,150,109,8.29,No,0,0,15,None,0,No,4,University of North Carolina at Chapel Hill
+S0676,IIT Delhi,CS,IS,167,150,113,8.67,Yes,3,0,2,None,52,No,1,University of Florida
+S0677,NIT Trichy,CE,CE,159,154,119,7.37,Yes,2,0,10,National,19,No,4,University of Minnesota
+S0678,IIT Bombay,IT,DS,169,149,102,8.73,No,0,0,3,None,0,No,2,Arizona State University
+S0679,IIT Bombay,IT,IS,156,146,117,8.42,No,0,0,13,None,14,Yes,1,University of Southern California
+S0680,SRM University,ECE,IS,169,163,105,7.83,No,0,0,2,National,20,Yes,5,University of Florida
+S0681,SRM University,CS,CE,156,159,118,8.5,Yes,3,2,2,None,25,Yes,5,University of Texas at Austin
+S0682,IIIT Hyderabad,EE,DS,167,162,101,8.35,No,0,0,17,National,19,No,1,University of Wisconsin–Madison
+S0683,NIT Trichy,EE,AI,159,152,113,8.38,Yes,1,2,0,National,0,No,5,University of Southern California
+S0684,Mumbai University,IT,CE,167,165,120,8.27,No,0,0,16,National,32,Yes,4,Stanford University
+S0685,VIT Vellore,CE,AI,158,146,109,7.76,No,0,0,7,None,10,Yes,5,University of Wisconsin–Madison
+S0686,IIT Delhi,IT,CS,168,154,114,7.84,No,0,0,1,None,16,Yes,5,University of Notre Dame
+S0687,IIIT Hyderabad,EE,CE,162,151,105,8.08,Yes,2,1,14,None,0,No,2,University of Washington
+S0688,Mumbai University,ECE,CS,165,165,96,8.22,No,0,0,10,None,34,Yes,5,University of Illinois Urbana-Champaign
+S0689,NIT Trichy,CE,CE,162,161,103,8.53,No,0,0,8,None,47,Yes,1,University of Illinois Urbana-Champaign
+S0690,Mumbai University,ECE,AI,164,160,96,9.17,No,0,0,3,National,43,No,1,Georgia Tech
+S0691,IIT Delhi,EE,CE,169,148,105,8.32,No,0,0,12,International,30,No,5,Georgia Tech
+S0692,NIT Trichy,EE,CE,169,162,96,8.52,No,0,0,4,None,15,Yes,5,Arizona State University
+S0693,IIT Madras,ECE,IS,170,163,120,8.64,Yes,1,0,13,National,45,Yes,2,Georgia Tech
+S0694,IIT Bombay,CE,CS,170,151,119,8.56,No,0,0,6,International,54,Yes,2,Stanford University
+S0695,IIIT Hyderabad,IT,IS,162,148,111,7.74,Yes,3,0,6,National,54,Yes,3,University of Southern California
+S0696,IIT Madras,IT,DS,162,150,104,8.88,Yes,3,0,17,None,29,Yes,4,Stanford University
+S0697,Pune University,EE,DS,164,154,120,8.79,Yes,2,0,12,None,9,Yes,5,Purdue University
+S0698,IIT Madras,CS,IS,163,164,98,8.27,No,0,0,14,None,41,Yes,1,University of North Carolina at Chapel Hill
+S0699,VIT Vellore,CE,CE,157,165,104,7.77,No,0,0,3,None,45,Yes,4,University of Florida
+S0700,Pune University,CE,CS,161,160,120,8.22,No,0,0,0,National,54,No,5,Stony Brook University
+S0701,VIT Vellore,ECE,DS,161,145,120,7.42,Yes,3,0,0,National,26,No,1,UC Berkeley
+S0702,SRM University,IT,IS,167,159,109,8.95,Yes,3,0,13,None,0,No,3,MIT
+S0703,VIT Vellore,IT,CS,160,146,99,7.89,No,0,0,4,None,0,No,5,Carnegie Mellon University
+S0704,SRM University,CS,AI,161,159,108,8.06,No,0,0,13,None,0,No,4,Purdue University
+S0705,NIT Trichy,CE,AI,165,149,115,8.91,Yes,2,1,0,National,12,Yes,4,Ohio State University
+S0706,IIT Madras,EE,CS,168,154,99,6.96,No,0,0,12,International,9,Yes,2,Purdue University
+S0707,VIT Vellore,IT,AI,166,165,107,8.84,No,0,0,10,None,30,Yes,4,University of Illinois Urbana-Champaign
+S0708,VIT Vellore,ECE,AI,164,164,96,8.37,Yes,3,0,5,National,0,No,2,University of Illinois Urbana-Champaign
+S0709,IIT Madras,ECE,CS,167,160,99,9.04,Yes,3,0,9,None,0,No,3,University of Wisconsin–Madison
+S0710,IIT Madras,EE,AI,166,160,104,7.73,No,0,0,6,None,0,No,5,University of Illinois Urbana-Champaign
+S0711,NIT Trichy,CE,CE,169,163,105,8.37,Yes,1,0,0,None,0,No,4,Georgia Tech
+S0712,NIT Trichy,EE,IS,158,161,101,7.73,Yes,3,0,16,None,9,Yes,2,University of North Carolina at Chapel Hill
+S0713,Mumbai University,ECE,DS,157,155,97,8.75,No,0,0,8,None,21,Yes,1,University of Texas at Austin
+S0714,NIT Trichy,CE,AI,169,148,96,8.73,No,0,0,12,National,16,Yes,4,Ohio State University
+S0715,Pune University,EE,CE,155,149,108,9.08,No,0,0,6,None,0,No,3,University of Notre Dame
+S0716,IIT Bombay,IT,AI,167,146,96,8.2,Yes,1,2,13,International,58,No,1,Carnegie Mellon University
+S0717,BITS Pilani,IT,DS,164,148,98,9.24,Yes,1,1,15,None,0,No,5,Pennsylvania State University
+S0718,IIIT Hyderabad,IT,AI,158,157,108,7.69,No,0,0,6,International,0,No,2,Carnegie Mellon University
+S0719,IIT Madras,CS,AI,165,152,113,8.17,Yes,3,1,12,None,39,No,1,University of North Carolina at Chapel Hill
+S0720,Mumbai University,CS,DS,163,162,104,7.71,Yes,3,0,5,None,48,Yes,2,University of Florida
+S0721,IIT Bombay,IT,CE,163,155,108,8.3,No,0,0,10,None,15,Yes,3,University of Florida
+S0722,IIIT Hyderabad,EE,IS,155,150,103,7.75,No,0,0,13,None,14,No,5,UC Berkeley
+S0723,BITS Pilani,IT,IS,169,165,116,8.75,No,0,0,7,None,24,Yes,5,Stanford University
+S0724,NIT Trichy,IT,CS,167,147,105,8.44,No,0,0,12,International,47,Yes,1,Northeastern University
+S0725,IIT Madras,EE,IS,160,156,120,7.65,Yes,3,0,13,None,9,No,2,University of Illinois Urbana-Champaign
+S0726,IIT Delhi,EE,CE,166,150,104,8.62,No,0,0,8,International,18,Yes,3,University of Notre Dame
+S0727,IIT Delhi,CE,CE,168,149,119,8.99,No,0,0,18,National,0,No,3,Stony Brook University
+S0728,IIT Delhi,EE,IS,159,154,98,8.49,Yes,1,1,13,International,29,Yes,3,University of Notre Dame
+S0729,IIT Delhi,ECE,IS,165,161,118,7.52,No,0,0,18,None,31,Yes,3,University of Washington
+S0730,IIIT Hyderabad,EE,CE,162,164,114,8.13,No,0,0,17,National,0,No,2,University of North Carolina at Chapel Hill
+S0731,SRM University,CS,AI,167,161,115,8.55,Yes,2,0,0,None,0,No,1,Stanford University
+S0732,NIT Trichy,IT,AI,158,153,112,8.08,No,0,0,15,International,0,No,2,University of Illinois Urbana-Champaign
+S0733,VIT Vellore,ECE,CE,161,148,99,7.69,No,0,0,9,None,12,No,4,University of Wisconsin–Madison
+S0734,VIT Vellore,IT,CS,163,149,118,8.82,No,0,0,5,None,28,Yes,2,Stony Brook University
+S0735,IIIT Hyderabad,CS,IS,159,163,120,8.06,No,0,0,9,None,0,No,1,Arizona State University
+S0736,Mumbai University,IT,IS,167,154,113,9,No,0,0,13,None,27,No,2,University of Minnesota
+S0737,IIT Delhi,ECE,DS,158,146,98,7.94,No,0,0,3,None,31,Yes,2,University of North Carolina at Chapel Hill
+S0738,IIIT Hyderabad,CE,CS,156,147,101,8.03,Yes,2,0,6,None,49,Yes,2,Purdue University
+S0739,IIT Madras,CE,AI,164,146,113,7.9,No,0,0,8,None,38,Yes,2,University of Illinois Urbana-Champaign
+S0740,Pune University,CS,CS,157,148,107,8.12,Yes,2,0,18,National,0,No,3,University of Florida
+S0741,IIT Bombay,CS,DS,168,158,98,8.43,No,0,0,17,International,38,Yes,2,Purdue University
+S0742,IIT Madras,IT,AI,161,153,111,7.71,No,0,0,10,None,40,Yes,2,Northeastern University
+S0743,Mumbai University,EE,AI,170,163,116,7.62,Yes,3,2,12,None,0,No,1,Georgia Tech
+S0744,NIT Trichy,CS,DS,159,148,113,7.36,No,0,0,0,International,15,Yes,5,Ohio State University
+S0745,SRM University,CS,CS,157,148,99,7.3,No,0,0,14,International,0,No,4,University of Wisconsin–Madison
+S0746,Mumbai University,CE,DS,168,160,111,7.52,Yes,2,1,6,National,13,Yes,4,Arizona State University
+S0747,IIT Madras,CE,AI,167,148,120,7.94,No,0,0,9,None,0,No,3,Pennsylvania State University
+S0748,Pune University,CS,DS,157,155,101,8.29,Yes,2,0,13,International,0,No,5,University of Minnesota
+S0749,IIT Madras,ECE,CS,160,155,100,8.4,No,0,0,15,National,0,No,3,Carnegie Mellon University
+S0750,IIT Madras,EE,AI,169,163,112,8.27,No,0,0,8,National,35,Yes,5,Northeastern University
+S0751,IIIT Hyderabad,CE,DS,156,145,106,8.93,Yes,3,0,10,None,57,Yes,3,Arizona State University
+S0752,SRM University,ECE,DS,160,159,115,9.1,No,0,0,14,None,18,Yes,3,University of Illinois Urbana-Champaign
+S0753,Pune University,ECE,IS,155,160,95,8.06,No,0,0,2,None,0,No,2,Carnegie Mellon University
+S0754,Pune University,EE,CE,168,150,103,7.72,Yes,3,0,3,International,56,Yes,5,University of Washington
+S0755,IIIT Hyderabad,CS,CS,158,160,99,9.28,No,0,0,0,None,11,Yes,3,Ohio State University
+S0756,IIT Bombay,IT,DS,159,162,99,8.8,Yes,3,0,17,None,16,Yes,5,University of North Carolina at Chapel Hill
+S0757,IIIT Hyderabad,CE,CS,156,145,103,8.75,Yes,3,0,8,None,0,No,1,University of Florida
+S0758,Mumbai University,IT,CS,155,155,101,7.92,Yes,2,0,5,National,0,No,1,MIT
+S0759,VIT Vellore,ECE,AI,166,160,112,8.63,No,0,0,14,National,40,Yes,1,Stony Brook University
+S0760,Pune University,ECE,AI,164,155,102,8.27,Yes,3,0,4,National,60,No,3,University of Southern California
+S0761,IIT Madras,EE,CE,168,159,104,8.16,No,0,0,4,National,11,Yes,5,Arizona State University
+S0762,IIT Delhi,CS,IS,162,156,110,8.16,No,0,0,17,National,36,Yes,5,University of North Carolina at Chapel Hill
+S0763,IIIT Hyderabad,CS,DS,158,152,116,8.45,No,0,0,14,None,43,Yes,5,Pennsylvania State University
+S0764,Pune University,ECE,CS,165,156,110,8.94,No,0,0,18,National,0,No,3,MIT
+S0765,IIT Bombay,CE,AI,168,164,108,9.34,No,0,0,1,National,17,No,4,Pennsylvania State University
+S0766,Pune University,EE,AI,156,157,105,8,No,0,0,7,None,30,No,1,University of Texas at Austin
+S0767,VIT Vellore,ECE,DS,169,158,97,8.3,No,0,0,13,National,8,Yes,2,Georgia Tech
+S0768,BITS Pilani,IT,AI,163,151,110,8.15,No,0,0,5,National,0,No,3,Ohio State University
+S0769,NIT Trichy,EE,DS,165,145,112,8.42,Yes,1,0,8,None,0,No,1,University of North Carolina at Chapel Hill
+S0770,IIT Madras,CS,IS,159,154,98,6.93,No,0,0,10,None,33,Yes,3,University of Minnesota
+S0771,BITS Pilani,EE,CS,155,157,100,8.09,No,0,0,18,International,0,No,3,Pennsylvania State University
+S0772,NIT Trichy,CS,DS,161,152,116,9.22,Yes,2,0,9,None,43,Yes,5,Purdue University
+S0773,IIT Bombay,CE,IS,162,146,103,7.86,Yes,1,0,12,None,34,Yes,2,Arizona State University
+S0774,Mumbai University,EE,CS,160,164,99,8,No,0,0,0,None,19,No,1,University of Notre Dame
+S0775,BITS Pilani,IT,CE,160,157,107,7.92,No,0,0,15,International,32,No,3,University of North Carolina at Chapel Hill
+S0776,Pune University,IT,AI,162,163,100,8.13,No,0,0,9,National,0,No,2,University of Minnesota
+S0777,Pune University,EE,AI,156,148,113,7.55,Yes,1,2,7,None,21,Yes,1,Arizona State University
+S0778,IIT Bombay,CE,CS,168,148,107,7.93,Yes,2,0,8,National,8,Yes,5,Stanford University
+S0779,IIT Madras,CS,IS,159,152,95,8.41,Yes,2,0,6,None,38,Yes,4,University of North Carolina at Chapel Hill
+S0780,NIT Trichy,CE,AI,164,155,107,8.41,Yes,3,0,14,None,29,No,3,Stony Brook University
+S0781,IIT Delhi,CE,AI,157,159,110,8.33,No,0,0,13,National,16,Yes,4,Pennsylvania State University
+S0782,Mumbai University,IT,AI,160,162,97,8.89,No,0,0,10,None,7,No,5,University of Notre Dame
+S0783,Pune University,IT,DS,162,147,116,8.43,Yes,2,0,14,None,26,Yes,2,Arizona State University
+S0784,IIT Bombay,IT,DS,170,148,112,8.87,Yes,1,0,12,International,0,No,5,Purdue University
+S0785,BITS Pilani,EE,DS,170,147,97,9.34,Yes,1,0,6,None,0,No,3,UC Berkeley
+S0786,IIT Delhi,CE,CE,159,152,117,8.64,No,0,0,6,None,19,Yes,4,University of Notre Dame
+S0787,VIT Vellore,CE,DS,159,160,119,7.56,No,0,0,8,None,0,No,4,MIT
+S0788,VIT Vellore,ECE,CE,157,155,101,8.35,No,0,0,4,None,0,No,1,University of Notre Dame
+S0789,VIT Vellore,ECE,DS,168,157,104,8.27,Yes,2,0,7,International,38,Yes,3,UC Berkeley
+S0790,BITS Pilani,ECE,DS,162,160,106,8.99,No,0,0,10,International,18,Yes,5,University of Wisconsin–Madison
+S0791,NIT Trichy,CE,CS,168,150,100,8.14,Yes,3,1,3,None,0,No,1,Carnegie Mellon University
+S0792,VIT Vellore,CE,DS,168,155,107,7.8,No,0,0,10,International,0,No,4,Carnegie Mellon University
+S0793,IIT Bombay,EE,IS,170,150,114,7.96,No,0,0,10,National,25,Yes,3,MIT
+S0794,IIT Bombay,CS,DS,158,154,108,7.57,No,0,0,11,International,11,Yes,4,Stony Brook University
+S0795,NIT Trichy,CE,AI,164,156,110,6.74,No,0,0,14,International,0,No,5,Stony Brook University
+S0796,IIT Madras,CS,IS,155,151,102,9.23,No,0,0,16,None,15,No,2,Pennsylvania State University
+S0797,IIT Delhi,IT,IS,159,146,113,8.21,No,0,0,8,None,28,No,4,MIT
+S0798,Pune University,EE,DS,168,165,102,7.61,No,0,0,16,None,0,No,2,MIT
+S0799,IIT Bombay,CS,AI,164,161,103,9.05,Yes,2,0,17,None,30,Yes,5,Ohio State University
+S0800,VIT Vellore,CS,CE,160,162,114,9.15,No,0,0,2,National,36,Yes,3,University of North Carolina at Chapel Hill
+S0801,IIIT Hyderabad,ECE,IS,159,145,112,8.29,No,0,0,13,None,0,No,2,University of Notre Dame
+S0802,IIT Bombay,ECE,CE,166,147,113,7.53,No,0,0,11,None,0,No,3,Stanford University
+S0803,IIT Madras,EE,AI,170,156,120,7.97,No,0,0,1,National,42,No,5,Carnegie Mellon University
+S0804,Pune University,ECE,CS,157,146,104,8.09,Yes,1,1,12,International,16,No,2,Georgia Tech
+S0805,SRM University,CS,CS,161,160,104,8.23,No,0,0,11,National,12,Yes,4,UC Berkeley
+S0806,SRM University,ECE,IS,164,159,98,7.67,No,0,0,14,National,38,Yes,2,Stony Brook University
+S0807,NIT Trichy,CS,IS,161,160,117,8.69,Yes,1,2,12,None,52,Yes,5,MIT
+S0808,IIIT Hyderabad,EE,IS,169,156,113,7.15,No,0,0,16,None,12,Yes,1,Stanford University
+S0809,BITS Pilani,CS,CS,161,156,101,8.78,Yes,3,0,18,None,16,Yes,2,Arizona State University
+S0810,BITS Pilani,IT,DS,160,154,100,8.89,Yes,3,1,15,None,7,Yes,3,Northeastern University
+S0811,VIT Vellore,EE,CE,170,164,101,8.02,Yes,1,2,10,None,0,No,4,University of Illinois Urbana-Champaign
+S0812,VIT Vellore,CE,CE,162,153,105,8.17,Yes,2,0,1,None,10,Yes,1,Carnegie Mellon University
+S0813,IIT Delhi,CS,CE,169,151,95,8.97,No,0,0,18,International,59,Yes,2,University of Illinois Urbana-Champaign
+S0814,SRM University,IT,IS,170,160,109,8.53,No,0,0,3,None,0,No,3,Stony Brook University
+S0815,IIT Bombay,EE,CE,167,151,95,8.04,No,0,0,1,None,0,No,1,Carnegie Mellon University
+S0816,IIT Bombay,ECE,DS,161,154,116,8.09,Yes,1,0,1,None,51,Yes,4,University of Texas at Austin
+S0817,NIT Trichy,CS,CE,168,148,116,8.46,No,0,0,15,None,17,Yes,4,Northeastern University
+S0818,VIT Vellore,EE,IS,164,146,114,9.17,No,0,0,12,National,0,No,3,University of Minnesota
+S0819,Pune University,CS,CE,166,149,100,8.11,No,0,0,9,International,27,Yes,4,University of Illinois Urbana-Champaign
+S0820,IIIT Hyderabad,IT,DS,159,147,113,8.02,Yes,2,2,0,None,0,No,2,University of Texas at Austin
+S0821,VIT Vellore,CS,AI,165,160,120,8.22,No,0,0,3,None,0,No,1,UC Berkeley
+S0822,Pune University,CS,IS,159,158,95,8.23,Yes,1,1,17,National,0,No,4,Stony Brook University
+S0823,BITS Pilani,CE,IS,161,152,105,8.36,Yes,3,0,11,None,0,No,3,Carnegie Mellon University
+S0824,IIIT Hyderabad,EE,IS,157,153,107,8.17,Yes,3,0,13,International,18,Yes,2,University of Texas at Austin
+S0825,Pune University,IT,AI,170,149,116,8.81,No,0,0,11,None,22,Yes,3,Arizona State University
+S0826,IIIT Hyderabad,IT,IS,159,154,95,7.76,Yes,1,0,4,None,0,No,3,University of North Carolina at Chapel Hill
+S0827,VIT Vellore,CS,CS,157,163,95,8.42,No,0,0,10,None,32,Yes,2,Ohio State University
+S0828,Pune University,IT,DS,165,158,115,8.44,No,0,0,12,National,42,Yes,1,MIT
+S0829,Pune University,CS,CE,156,161,114,7.8,No,0,0,2,National,22,No,3,Arizona State University
+S0830,SRM University,CS,DS,162,155,117,8.41,No,0,0,2,None,34,Yes,1,University of Florida
+S0831,IIIT Hyderabad,IT,AI,163,152,115,8.45,No,0,0,13,None,30,Yes,1,Purdue University
+S0832,SRM University,CS,DS,159,165,108,6.95,No,0,0,11,International,33,No,3,Georgia Tech
+S0833,NIT Trichy,CS,CS,162,147,97,7.72,Yes,2,0,6,National,0,No,5,Georgia Tech
+S0834,VIT Vellore,EE,DS,169,164,111,9.01,Yes,1,2,3,National,10,Yes,4,Carnegie Mellon University
+S0835,BITS Pilani,CS,AI,167,160,108,7.91,No,0,0,3,National,48,Yes,5,University of Wisconsin–Madison
+S0836,SRM University,IT,IS,162,158,112,7.61,No,0,0,11,None,29,No,2,Northeastern University
+S0837,NIT Trichy,EE,DS,160,150,108,7.28,No,0,0,14,National,0,No,2,University of North Carolina at Chapel Hill
+S0838,NIT Trichy,EE,AI,167,155,100,7.67,Yes,3,0,17,International,0,No,5,University of North Carolina at Chapel Hill
+S0839,IIT Delhi,ECE,CE,158,149,105,8.15,Yes,2,0,4,None,25,Yes,2,University of North Carolina at Chapel Hill
+S0840,SRM University,ECE,CE,155,155,95,7.58,No,0,0,9,None,39,No,3,University of North Carolina at Chapel Hill
+S0841,NIT Trichy,CE,CE,161,163,97,8.54,No,0,0,4,National,47,Yes,1,Stanford University
+S0842,SRM University,CE,IS,157,165,98,7.79,No,0,0,9,National,37,Yes,1,Stony Brook University
+S0843,Pune University,CE,DS,163,153,114,8.37,No,0,0,5,National,53,Yes,4,University of Southern California
+S0844,Pune University,IT,AI,159,163,101,8.93,Yes,1,0,4,None,6,Yes,1,University of Wisconsin–Madison
+S0845,NIT Trichy,ECE,DS,155,157,116,8.89,No,0,0,11,None,0,No,2,University of Washington
+S0846,VIT Vellore,CE,DS,158,165,112,8.36,Yes,1,0,0,National,0,No,2,University of Notre Dame
+S0847,IIT Madras,IT,IS,168,149,103,7.64,No,0,0,18,None,51,No,3,University of Southern California
+S0848,Pune University,ECE,IS,157,165,119,8.18,Yes,2,0,11,International,60,Yes,4,Arizona State University
+S0849,SRM University,EE,DS,166,165,104,8.37,Yes,2,1,2,None,49,No,4,University of Southern California
+S0850,BITS Pilani,CE,DS,163,161,101,9.46,No,0,0,17,National,57,Yes,5,Stanford University
+S0851,VIT Vellore,IT,IS,170,151,108,7.28,No,0,0,9,National,0,No,4,University of Washington
+S0852,NIT Trichy,ECE,CE,170,145,111,8.18,No,0,0,9,None,30,No,5,Stanford University
+S0853,IIT Delhi,ECE,CS,162,158,114,8.52,No,0,0,17,None,6,Yes,1,Carnegie Mellon University
+S0854,BITS Pilani,CS,CE,160,162,103,8.26,No,0,0,5,National,6,Yes,5,Northeastern University
+S0855,IIT Delhi,CE,AI,169,159,102,8.32,No,0,0,15,International,33,Yes,3,University of North Carolina at Chapel Hill
+S0856,Pune University,IT,CE,155,147,108,7.82,Yes,3,0,3,None,27,Yes,3,Arizona State University
+S0857,BITS Pilani,CS,DS,158,154,101,8.68,Yes,1,1,8,National,27,No,4,Carnegie Mellon University
+S0858,IIIT Hyderabad,ECE,DS,157,148,98,8.23,Yes,3,0,0,None,33,Yes,4,Stanford University
+S0859,IIT Madras,IT,CE,168,157,100,8.31,No,0,0,11,None,7,Yes,2,Ohio State University
+S0860,SRM University,ECE,CS,164,155,97,8.74,Yes,2,0,2,National,0,No,3,University of North Carolina at Chapel Hill
+S0861,BITS Pilani,ECE,CS,162,159,117,8.05,Yes,2,0,17,International,0,No,4,University of Washington
+S0862,IIT Madras,EE,AI,159,147,116,8.86,Yes,2,0,13,National,0,No,4,University of Minnesota
+S0863,IIT Madras,CS,DS,168,145,111,7.56,Yes,1,0,14,None,6,Yes,5,University of Southern California
+S0864,IIT Delhi,CS,CE,168,152,95,8.34,No,0,0,7,International,46,Yes,4,Carnegie Mellon University
+S0865,Pune University,ECE,CS,156,155,118,7.79,No,0,0,18,National,40,No,4,University of North Carolina at Chapel Hill
+S0866,NIT Trichy,IT,AI,160,151,103,7.67,No,0,0,16,International,22,Yes,1,University of North Carolina at Chapel Hill
+S0867,IIT Madras,IT,AI,159,156,114,9.16,No,0,0,12,None,0,No,2,MIT
+S0868,IIT Delhi,CS,DS,163,149,110,7.59,Yes,2,0,14,None,0,No,3,MIT
+S0869,IIT Madras,CE,AI,164,165,103,8.24,Yes,1,0,6,National,49,Yes,1,UC Berkeley
+S0870,Pune University,IT,CE,170,160,98,7.55,No,0,0,3,None,19,Yes,4,University of Southern California
+S0871,IIIT Hyderabad,IT,IS,165,147,109,8.82,Yes,1,0,13,None,25,No,4,Stanford University
+S0872,IIT Delhi,CE,DS,160,148,113,8,No,0,0,12,National,8,Yes,4,University of Notre Dame
+S0873,NIT Trichy,CS,AI,166,149,113,8.73,No,0,0,14,None,0,No,5,University of Minnesota
+S0874,IIIT Hyderabad,CS,CS,161,146,103,8.5,Yes,1,0,0,None,26,Yes,5,Stanford University
+S0875,NIT Trichy,CE,CE,156,151,118,9.35,No,0,0,11,International,11,Yes,4,University of Wisconsin–Madison
+S0876,Pune University,IT,AI,163,145,114,7.46,No,0,0,6,None,27,Yes,1,University of Wisconsin–Madison
+S0877,SRM University,IT,DS,168,162,111,7.71,Yes,1,0,17,National,0,No,3,Ohio State University
+S0878,Mumbai University,IT,DS,163,157,96,8.7,Yes,2,0,3,None,0,No,2,Stanford University
+S0879,IIT Bombay,CS,CE,161,147,119,8.37,No,0,0,16,None,30,Yes,1,University of Southern California
+S0880,IIT Delhi,CE,CE,157,165,117,8.09,No,0,0,7,National,25,Yes,3,UC Berkeley
+S0881,NIT Trichy,EE,IS,160,146,96,9.22,Yes,1,2,3,National,51,Yes,4,UC Berkeley
+S0882,IIT Delhi,ECE,CE,166,145,120,8.2,No,0,0,17,International,0,No,4,University of Texas at Austin
+S0883,Pune University,CE,CS,157,148,119,7.81,No,0,0,2,National,31,Yes,3,Arizona State University
+S0884,VIT Vellore,CE,IS,159,164,107,8.74,Yes,2,0,5,None,0,No,4,UC Berkeley
+S0885,Mumbai University,CE,CE,168,149,108,8.22,Yes,2,0,4,National,48,Yes,2,University of Minnesota
+S0886,Pune University,ECE,CS,170,151,109,8.26,Yes,3,0,16,None,0,No,2,University of Illinois Urbana-Champaign
+S0887,IIT Delhi,ECE,IS,157,154,104,8.55,No,0,0,12,None,19,Yes,1,University of Wisconsin–Madison
+S0888,Mumbai University,EE,IS,158,154,100,8.57,No,0,0,3,None,0,No,5,Purdue University
+S0889,VIT Vellore,CE,IS,161,158,103,7.71,No,0,0,8,None,53,Yes,5,University of Wisconsin–Madison
+S0890,NIT Trichy,CS,DS,167,162,112,8.06,No,0,0,7,None,0,No,5,University of Washington
+S0891,IIT Delhi,EE,DS,157,156,113,7.51,No,0,0,4,National,0,No,2,University of Florida
+S0892,NIT Trichy,CS,IS,165,164,102,8.38,Yes,1,0,1,None,0,No,1,University of Illinois Urbana-Champaign
+S0893,Mumbai University,CE,IS,160,149,111,9.15,Yes,2,0,0,None,9,No,4,University of Washington
+S0894,Pune University,EE,CS,169,161,114,7.73,No,0,0,16,National,32,Yes,5,UC Berkeley
+S0895,NIT Trichy,CE,CE,156,155,100,7.43,No,0,0,4,None,0,No,4,Carnegie Mellon University
+S0896,BITS Pilani,EE,CS,158,162,114,7.88,No,0,0,3,International,34,Yes,3,University of Texas at Austin
+S0897,VIT Vellore,IT,AI,168,151,98,8.08,Yes,2,0,11,International,20,No,1,University of Texas at Austin
+S0898,VIT Vellore,CE,CS,168,151,110,8.57,No,0,0,16,None,24,Yes,5,Ohio State University
+S0899,IIIT Hyderabad,CE,AI,167,161,100,8.03,No,0,0,3,National,26,Yes,4,Purdue University
+S0900,BITS Pilani,IT,DS,158,157,102,8.39,No,0,0,6,None,0,No,5,Stony Brook University
+S0901,SRM University,ECE,CS,156,146,104,7.95,No,0,0,1,None,27,No,3,Northeastern University
+S0902,SRM University,ECE,CE,162,155,117,8.11,No,0,0,7,National,35,No,2,Georgia Tech
+S0903,NIT Trichy,ECE,DS,159,149,105,7.79,No,0,0,10,None,0,No,5,Pennsylvania State University
+S0904,IIT Bombay,ECE,CE,157,165,118,7.64,No,0,0,8,International,49,No,1,Ohio State University
+S0905,IIT Bombay,IT,IS,156,148,117,8.59,No,0,0,7,National,0,No,2,Ohio State University
+S0906,SRM University,ECE,CS,162,148,105,7.98,Yes,1,0,0,International,31,Yes,3,University of Texas at Austin
+S0907,IIIT Hyderabad,CS,CE,168,154,106,8.42,No,0,0,18,National,0,No,1,University of Minnesota
+S0908,SRM University,CE,CE,160,148,109,7.79,No,0,0,6,None,60,Yes,5,University of Wisconsin–Madison
+S0909,Mumbai University,CS,DS,161,164,110,8.2,Yes,2,0,15,National,9,No,1,University of Notre Dame
+S0910,IIT Bombay,ECE,DS,160,165,100,7.16,No,0,0,8,None,52,No,2,University of Florida
+S0911,Pune University,EE,DS,160,152,108,8.02,Yes,1,2,3,National,0,No,3,Pennsylvania State University
+S0912,SRM University,ECE,DS,155,150,117,7.84,Yes,2,2,9,None,58,Yes,5,Ohio State University
+S0913,VIT Vellore,CS,CS,168,153,95,8.8,No,0,0,18,None,15,Yes,5,University of Texas at Austin
+S0914,Mumbai University,IT,IS,156,155,104,7.57,No,0,0,4,None,16,Yes,5,Pennsylvania State University
+S0915,IIT Bombay,EE,AI,157,145,115,8.13,Yes,2,0,8,None,54,Yes,2,Ohio State University
+S0916,IIT Delhi,EE,IS,167,158,113,8.37,No,0,0,13,National,30,Yes,5,Georgia Tech
+S0917,VIT Vellore,CS,CE,163,147,97,8.71,No,0,0,17,National,12,No,2,University of Wisconsin–Madison
+S0918,IIT Madras,IT,CS,159,154,95,8.64,Yes,3,2,6,None,42,Yes,5,University of Southern California
+S0919,IIIT Hyderabad,IT,DS,163,151,110,8.17,Yes,3,0,13,International,0,No,4,MIT
+S0920,BITS Pilani,ECE,DS,164,152,118,8.24,No,0,0,12,International,36,Yes,4,University of Washington
+S0921,IIT Madras,IT,CS,155,163,106,8.8,Yes,3,0,16,International,0,No,4,Stony Brook University
+S0922,Pune University,IT,CE,168,164,108,8.16,Yes,1,0,3,International,21,Yes,1,Carnegie Mellon University
+S0923,SRM University,CE,DS,155,146,119,8.29,No,0,0,18,None,10,Yes,3,Carnegie Mellon University
+S0924,IIT Madras,CE,IS,167,161,108,8.81,No,0,0,18,National,24,Yes,1,University of Washington
+S0925,NIT Trichy,CS,IS,156,147,103,9.44,No,0,0,2,None,0,No,5,Northeastern University
+S0926,IIT Madras,EE,AI,165,157,110,8.33,No,0,0,13,None,16,Yes,5,Pennsylvania State University
+S0927,VIT Vellore,CS,AI,167,160,116,8.47,Yes,3,0,5,None,42,Yes,4,Georgia Tech
+S0928,IIIT Hyderabad,CE,CS,155,153,105,8.62,No,0,0,0,National,31,No,2,Pennsylvania State University
+S0929,NIT Trichy,ECE,CS,156,149,117,8.81,No,0,0,8,International,31,Yes,5,Stony Brook University
+S0930,IIIT Hyderabad,IT,CS,169,148,104,8.73,No,0,0,4,None,57,Yes,4,Ohio State University
+S0931,VIT Vellore,IT,IS,164,161,120,7.91,Yes,2,0,7,National,0,No,4,Arizona State University
+S0932,SRM University,CS,IS,161,155,111,8.37,Yes,1,0,2,None,0,No,5,Ohio State University
+S0933,IIIT Hyderabad,EE,CE,165,147,120,8.73,No,0,0,6,None,56,No,2,University of Southern California
+S0934,NIT Trichy,EE,CS,167,160,96,8.93,No,0,0,12,None,37,No,2,UC Berkeley
+S0935,IIT Madras,ECE,CS,161,165,114,8.13,Yes,3,0,12,National,0,No,5,University of Texas at Austin
+S0936,Mumbai University,IT,DS,162,156,109,8.35,No,0,0,2,None,59,Yes,2,Stony Brook University
+S0937,Mumbai University,EE,CS,163,156,109,8.41,No,0,0,13,None,19,No,4,Stony Brook University
+S0938,SRM University,ECE,AI,170,160,103,8.22,No,0,0,11,National,27,No,5,Stony Brook University
+S0939,BITS Pilani,IT,CE,166,151,109,8.34,No,0,0,8,International,36,No,4,Arizona State University
+S0940,VIT Vellore,EE,IS,170,154,95,7.13,Yes,1,1,13,None,8,Yes,3,Ohio State University
+S0941,Mumbai University,CS,CS,170,151,115,9.82,No,0,0,1,National,7,Yes,3,Georgia Tech
+S0942,Pune University,EE,CS,167,156,118,9.35,No,0,0,7,National,29,Yes,3,Purdue University
+S0943,VIT Vellore,ECE,DS,165,150,101,8.11,No,0,0,4,International,19,No,1,University of Wisconsin–Madison
+S0944,Pune University,ECE,IS,155,163,118,8.15,Yes,1,0,9,National,30,Yes,1,University of North Carolina at Chapel Hill
+S0945,IIIT Hyderabad,CE,CE,167,155,97,7.38,Yes,1,0,10,National,29,Yes,4,University of Texas at Austin
+S0946,Mumbai University,ECE,CS,170,159,108,7.31,No,0,0,16,National,26,Yes,3,Carnegie Mellon University
+S0947,NIT Trichy,CE,IS,167,165,120,8.45,No,0,0,17,International,0,No,3,Arizona State University
+S0948,IIT Bombay,ECE,IS,165,164,113,8.73,Yes,3,0,2,None,0,No,2,Northeastern University
+S0949,Pune University,IT,CE,160,160,108,8.63,No,0,0,0,None,32,Yes,4,University of Florida
+S0950,IIT Bombay,IT,AI,163,146,106,7.79,Yes,1,0,12,None,21,Yes,5,University of Illinois Urbana-Champaign
+S0951,IIIT Hyderabad,CS,CS,169,161,105,8.6,Yes,2,1,4,None,0,No,1,University of Illinois Urbana-Champaign
+S0952,Pune University,IT,DS,170,165,102,8.14,No,0,0,2,National,29,No,4,MIT
+S0953,IIT Madras,EE,IS,164,148,101,8.01,Yes,1,0,2,National,0,No,5,UC Berkeley
+S0954,BITS Pilani,IT,CS,168,155,112,7.53,No,0,0,11,None,25,Yes,2,Stanford University
+S0955,Mumbai University,EE,CE,165,155,114,7.84,No,0,0,1,International,22,Yes,1,Georgia Tech
+S0956,IIT Bombay,CE,IS,165,156,120,8.46,No,0,0,3,None,17,Yes,2,MIT
+S0957,Mumbai University,CE,DS,164,162,119,8.36,No,0,0,2,National,0,No,1,Arizona State University
+S0958,IIT Delhi,CE,AI,163,157,101,8.28,Yes,3,0,5,None,11,No,5,Georgia Tech
+S0959,NIT Trichy,IT,AI,158,150,97,7.11,No,0,0,4,None,0,No,1,Stony Brook University
+S0960,IIT Madras,EE,AI,161,152,97,8.29,Yes,3,0,6,International,36,Yes,1,University of Notre Dame
+S0961,IIT Madras,ECE,AI,169,159,112,7.91,Yes,3,0,13,None,23,Yes,4,Stanford University
+S0962,VIT Vellore,EE,DS,164,155,104,8.36,Yes,3,0,5,National,9,Yes,5,Purdue University
+S0963,IIT Madras,ECE,DS,156,158,104,8.83,No,0,0,3,None,9,No,4,University of Illinois Urbana-Champaign
+S0964,IIIT Hyderabad,CS,AI,156,161,115,7.98,Yes,3,2,3,None,49,No,2,Arizona State University
+S0965,Mumbai University,EE,CS,167,150,115,8.25,No,0,0,18,National,0,No,2,Ohio State University
+S0966,IIT Madras,EE,CE,157,145,95,9.22,Yes,1,2,11,None,30,Yes,2,Ohio State University
+S0967,IIT Bombay,IT,AI,156,165,116,8.34,No,0,0,8,National,25,Yes,2,Northeastern University
+S0968,SRM University,EE,AI,159,164,106,8.19,Yes,2,2,1,None,0,No,2,Purdue University
+S0969,SRM University,EE,AI,167,146,104,7.79,No,0,0,5,National,0,No,4,University of Florida
+S0970,BITS Pilani,ECE,IS,163,159,120,8.61,Yes,3,0,1,National,44,Yes,5,Purdue University
+S0971,SRM University,ECE,IS,167,153,101,7.71,Yes,2,0,11,None,10,Yes,5,Stanford University
+S0972,SRM University,EE,IS,166,158,117,8.85,No,0,0,7,None,57,Yes,2,Arizona State University
+S0973,IIT Bombay,CE,AI,157,148,120,8.53,No,0,0,6,National,6,Yes,4,University of Illinois Urbana-Champaign
+S0974,Mumbai University,CE,CE,155,151,111,7.92,Yes,2,2,8,International,22,No,2,Pennsylvania State University
+S0975,SRM University,IT,CE,164,154,97,7.81,No,0,0,3,None,31,No,2,MIT
+S0976,IIT Madras,EE,DS,162,163,106,7.82,No,0,0,13,None,37,Yes,2,Carnegie Mellon University
+S0977,IIT Bombay,EE,IS,155,162,103,7.31,No,0,0,16,None,26,Yes,3,Arizona State University
+S0978,VIT Vellore,IT,CE,160,156,119,8.44,No,0,0,17,National,33,Yes,5,Stony Brook University
+S0979,Pune University,CS,CE,161,149,102,7.16,Yes,1,0,16,National,19,Yes,4,Georgia Tech
+S0980,NIT Trichy,EE,IS,155,164,107,8.16,Yes,3,1,8,National,32,Yes,2,Purdue University
+S0981,BITS Pilani,IT,AI,170,155,106,8.12,No,0,0,10,National,11,Yes,5,University of Southern California
+S0982,NIT Trichy,ECE,AI,157,165,104,8.04,No,0,0,12,National,35,Yes,1,University of Illinois Urbana-Champaign
+S0983,Mumbai University,CE,CE,170,158,103,8.43,Yes,2,0,11,National,8,Yes,3,Georgia Tech
+S0984,Mumbai University,CE,IS,169,161,114,7.92,No,0,0,0,International,54,Yes,5,University of Notre Dame
+S0985,IIT Bombay,CS,AI,167,151,96,8.29,Yes,3,0,15,National,41,Yes,5,MIT
+S0986,IIT Madras,CE,DS,164,164,100,8.85,No,0,0,13,National,24,Yes,1,Purdue University
+S0987,Mumbai University,CE,AI,163,145,120,8.49,Yes,2,0,2,International,16,Yes,5,Carnegie Mellon University
+S0988,VIT Vellore,EE,IS,158,156,105,7.99,Yes,2,0,11,None,0,No,4,Ohio State University
+S0989,NIT Trichy,ECE,IS,159,160,99,8.2,Yes,2,0,12,International,33,Yes,5,University of Texas at Austin
+S0990,IIT Bombay,CE,CS,168,159,118,8.04,No,0,0,4,International,0,No,1,University of Minnesota
+S0991,BITS Pilani,ECE,DS,162,145,116,8.12,No,0,0,10,International,0,No,2,University of Southern California
+S0992,VIT Vellore,IT,IS,163,151,114,8.31,Yes,2,0,8,None,18,Yes,1,University of Southern California
+S0993,NIT Trichy,ECE,AI,158,164,111,7.51,Yes,2,0,2,None,0,No,1,University of Florida
+S0994,IIT Madras,CE,DS,165,151,116,7.4,Yes,2,0,5,National,0,No,3,Carnegie Mellon University
+S0995,IIIT Hyderabad,EE,CS,169,159,108,7.75,Yes,2,0,1,None,17,Yes,2,University of Illinois Urbana-Champaign
+S0996,IIT Madras,IT,IS,170,160,98,8.46,Yes,2,0,5,International,36,Yes,5,University of Florida
+S0997,Pune University,EE,IS,162,154,98,8.53,Yes,2,0,14,None,0,No,1,University of Notre Dame
+S0998,BITS Pilani,ECE,IS,169,152,119,8.61,Yes,2,0,8,National,0,No,3,Carnegie Mellon University
+S0999,NIT Trichy,CE,CS,167,153,98,7.77,Yes,2,0,15,None,18,Yes,4,Stony Brook University
+S1000,IIT Delhi,CE,CS,159,152,99,8.25,No,0,0,11,None,6,Yes,3,Arizona State University
