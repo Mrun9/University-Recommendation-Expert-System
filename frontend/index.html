@@ -12,7 +12,7 @@
             <div class="chat-box">
                 <!-- Bot Greeting (Intro) -->
                 <div class="chat-bubble bot" id="botMessage1">
-                    Hello! I'm here to help you with your application. Let's get started.
+                    Hello! I'm here to help you find the best universities for your Master's. Let's start!
                 </div>
 
                 <!-- First Question: GRE -->
@@ -70,15 +70,39 @@
                         <option value="yes">Yes</option>
                         <option value="no">No</option>
                     </select>
+                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
                 </div>
 
                 <!-- Submit Button (Initially Hidden) -->
                 <div class="chat-bubble user" id="submitButton" style="display:none;">
                     <input type="submit" value="Submit" class="submit-btn">
                 </div>
-            </div>
-        </form>
+
+                 <!-- Add this chat bubble (initially hidden) -->
+<div class="chat-bubble bot" id="recommendationsBubble" style="display:none;">
+    
+    
+    <div id="safeUniversities">
+
+        <ul></ul>
     </div>
+    
+    <div id="targetUniversities">
+       
+        <ul></ul>
+    </div>
+    
+    <div id="ambitiousUniversities">
+       
+        <ul></ul>
+    </div>
+</div>
+            </div>
+
+        </form>
+       
+    </div>
+
 
     <script src="script.js"></script>
 </body>
