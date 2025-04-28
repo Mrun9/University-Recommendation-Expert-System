@@ -9,12 +9,16 @@
 <body>
 
 <div class="chat-container">
+    <div class="chat-header">
+        <div class="logo">UF</div>
+        <div class="app-title">UNIVERSITY FINDER</div>
+    </div>
     <form id="chatForm">
         <div class="chat-box">
-
+        
             <!-- Bot Greeting -->
             <div class="chat-bubble bot" id="botMessage1">
-                Hello! I'm here to help you find the best universities for your Master's. Let's start!
+                Hello! I'm here to help you find the best universities for your Master's and PhD. Let's start!
             </div>
 
             <!-- Questions in Order -->
@@ -69,7 +73,7 @@
              <!-- CGPA -->
              <div class="chat-bubble user" id="userQuestionCGPA" style="display:none;">
                 <label for="cgpa">What is your CGPA?</label>
-                <input type="number" step="0.01" id="cgpa" name="cgpa" min="0" max="10" required placeholder="Enter your CGPA">
+                <input type="number" step="0.01" id="cgpa" name="cgpa" min="0" max="10" required placeholder="CGPA">
                 <small>Min: 0, Max: 10</small>
                 <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
             </div>
@@ -77,7 +81,7 @@
             <!-- GRE Score -->
             <div class="chat-bubble user" id="userQuestionGRE" style="display:none;">
                 <label for="gre">What is your GRE score?</label>
-                <input type="number" id="gre" name="gre" min="0" max="340" required placeholder="Enter your GRE score">
+                <input type="number" id="gre" name="gre" min="0" max="340" required placeholder="GRE score">
                 <small>Min: 0, Max: 340</small>
                 <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
             </div>
@@ -86,7 +90,7 @@
             <!-- TOEFL Score -->
             <div class="chat-bubble user" id="userQuestionTOEFL" style="display:none;">
                 <label for="toefl">What is your TOEFL score?</label>
-                <input type="number" id="toefl" name="toefl" min="0" max="120" required placeholder="Enter your TOEFL score">
+                <input type="number" id="toefl" name="toefl" min="0" max="120" required placeholder="TOEFL score">
                 <small>Min: 0, Max: 120</small>
                 <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
             </div>
