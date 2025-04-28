@@ -25,14 +25,15 @@ handle_recommend(Request) :-
     (   member(method(options), Request)
     ->  true
     ;   http_parameters(Request, [
+            program(Program, [atom]),
+            course(Course, [atom]),
+            btech_major(Major, [atom]),
             gpa(GPA, [float]),
             gre(GRE, [integer]),
             toefl(TOEFL, [integer]),
-            field(Field, [atom]),
-            btech_major(Major, [atom]),
             research_done(Research, [atom]),
             work_experience(Work, [atom])
         ]),
-        process_recommendation(GPA, GRE, TOEFL, Field, Major, Research, Work, Result),
+        process_recommendation(Program, Course, Major, GPA, GRE, TOEFL, Research, Work, Result),
         reply_json(Result)
     ).

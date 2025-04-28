@@ -2,14 +2,17 @@ let currentQuestion = 0; // Start with the first question
 
 // Array of question IDs (in the order they should appear)
 const questions = [
-    "userQuestionGRE",
-    "userQuestionCGPA",
-    "userQuestionTOEFL",
+    "userQuestionProgram",
+   
     "userQuestionMajor",
-    "userQuestionMastersMajor",
+    "userQuestionUndergradMajor",
+    "userQuestionCGPA",
+    "userQuestionGRE",
+    "userQuestionTOEFL",
     "userQuestionResearch",
     "userQuestionWorkExperience",
 ];
+
 
 // Function to check if the user has answered the current question
 function validateInput() {
@@ -49,7 +52,7 @@ function showNextQuestion() {
 // Initially show only intro and first question
 document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('botMessage1').style.display = 'block';
-    document.getElementById('userQuestionGRE').style.display = 'block'; // Show the first question
+    document.getElementById('userQuestionProgram').style.display = 'block'; // Show the first question
 });
 
 function displayRecommendations(data) {
@@ -119,14 +122,16 @@ document.getElementById('chatForm').addEventListener('submit', async function(ev
     
     // Collect form data
     const formData = {
+        program: document.getElementById('program').value,
+        course: document.getElementById('major').value,
+        btech_major: document.getElementById('undergrad_major').value.toLowerCase(),
         gpa: document.getElementById('cgpa').value,
         gre: document.getElementById('gre').value,
         toefl: document.getElementById('toefl').value,
-        field: document.getElementById('masters_major').value.toLowerCase(),
-        btech_major: document.getElementById('undergrad_major').value.toLowerCase(),
         research_done: document.getElementById('research_done').value,
         work_experience: document.getElementById('work_experience').value
     };
+    
     
     try {
         const response = await fetch(`http://localhost:8080/recommend?${new URLSearchParams(formData)}`);

@@ -1,9 +1,9 @@
 :- module(inference_engine, [
-    process_recommendation/8
+    process_recommendation/9
 ]).
 
 :- use_module(rules).
 
 % Main inference entry point
-process_recommendation(GPA, GRE, TOEFL, Field, BTechMajor, ResearchExp, WorkExp, Recommendations) :-
-    recommend_universities(GPA, GRE, TOEFL, Field, BTechMajor, ResearchExp, WorkExp, Recommendations).
+process_recommendation(Program, Course, BTechMajor, GPA, GRE, TOEFL, ResearchExp, WorkExp, Recommendations) :-
+    recommend_universities(Program, Course, BTechMajor, GPA, GRE, TOEFL, ResearchExp, WorkExp, Recommendations).

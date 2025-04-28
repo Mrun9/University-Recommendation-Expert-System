@@ -7,103 +7,139 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="chat-container">
-        <form id="chatForm">
-            <div class="chat-box">
-                <!-- Bot Greeting (Intro) -->
-                <div class="chat-bubble bot" id="botMessage1">
-                    Hello! I'm here to help you find the best universities for your Master's. Let's start!
-                </div>
 
-                <!-- First Question: GRE -->
-                <div class="chat-bubble user" id="userQuestionGRE" style="display:none;">
-                    <label for="gre">What is your GRE score?</label>
-                    <input type="number" id="gre" name="gre" min="0" max="340" required placeholder="Enter your GRE score">
-                    <small>Min: 0, Max: 340</small>
-                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
-                </div>
+<div class="chat-container">
+    <form id="chatForm">
+        <div class="chat-box">
 
-                <!-- Second Question: CGPA -->
-                <div class="chat-bubble user" id="userQuestionCGPA" style="display:none;">
-                    <label for="cgpa">What is your CGPA?</label>
-                    <input type="number" step="0.01" id="cgpa" name="cgpa" min="0" max="10" required placeholder="Enter your CGPA">
-                    <small>Min: 0, Max: 10</small>
-                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
-                </div>
-
-                <!-- Third Question: TOEFL -->
-                <div class="chat-bubble user" id="userQuestionTOEFL" style="display:none;">
-                    <label for="toefl">What is your TOEFL score?</label>
-                    <input type="number" id="toefl" name="toefl" min="0" max="120" required placeholder="Enter your TOEFL score">
-                    <small>Min:0, Max: 120</small>
-                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
-                </div>
-
-                <!-- Fourth Question: Current Major -->
-                <div class="chat-bubble user" id="userQuestionMajor" style="display:none;">
-                    <label for="undergrad_major">What is your current major in undergrad?</label>
-                    <input type="text" id="undergrad_major" name="undergrad_major" required placeholder="Enter your current major">
-                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
-                </div>
-
-                <!-- Fifth Question: Desired Major -->
-                <div class="chat-bubble user" id="userQuestionMastersMajor" style="display:none;">
-                    <label for="masters_major">What major do you want to pursue for your master's degree?</label>
-                    <input type="text" id="masters_major" name="masters_major" required placeholder="Enter the major you want to pursue for your master's">
-                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
-                </div>
-
-                <!-- Sixth Question: Research Work -->
-                <div class="chat-bubble user" id="userQuestionResearch" style="display:none;">
-                    <label for="research_done">Have you done any research or published research papers?</label>
-                    <select id="research_done" name="research_done" required>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
-                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
-                </div>
-
-                <!-- Seventh Question: Work Experience -->
-                <div class="chat-bubble user" id="userQuestionWorkExperience" style="display:none;">
-                    <label for="work_experience">Do you have any work experience ?</label>
-                    <select id="work_experience" name="work_experience" required>
-                        <option value="yes">Yes</option>
-                        <option value="no">No</option>
-                    </select>
-                    <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
-                </div>
-
-                <!-- Submit Button (Initially Hidden) -->
-                <div class="chat-bubble user" id="submitButton" style="display:none;">
-                    <input type="submit" value="Submit" class="submit-btn">
-                </div>
-
-                 <!-- Add this chat bubble (initially hidden) -->
-<div class="chat-bubble bot" id="recommendationsBubble" style="display:none;">
-    
-    
-    <div id="safeUniversities">
-
-        <ul></ul>
-    </div>
-    
-    <div id="targetUniversities">
-       
-        <ul></ul>
-    </div>
-    
-    <div id="ambitiousUniversities">
-       
-        <ul></ul>
-    </div>
-</div>
+            <!-- Bot Greeting -->
+            <div class="chat-bubble bot" id="botMessage1">
+                Hello! I'm here to help you find the best universities for your Master's. Let's start!
             </div>
 
-        </form>
-       
-    </div>
+            <!-- Questions in Order -->
 
+            <!-- Program Type (MS/PhD) -->
+            <div class="chat-bubble user" id="userQuestionProgram" style="display:none;">
+                <label for="program">What program do you want to pursue?</label>
+                <select id="program" name="program" required>
+                    <option value="">Select Program</option>
+                    <option value="ms">MS</option>
+                    <option value="phd">PhD</option>
+                </select>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
 
-    <script src="script.js"></script>
+            <!-- Major Selection -->
+            <div class="chat-bubble user" id="userQuestionMajor" style="display:none;">
+                <label for="major">What major do you want to study?</label>
+                <select id="major" name="major" required>
+                    <option value="">Select Major</option>
+                    <option value="cs">Computer Science (CS)</option>
+                    <option value="ds">Data Science (DS)</option>
+                    <option value="hci">Human-Computer Interaction (HCI)</option>
+                    <option value="information technology">Information Technology</option>
+                    <option value="hpc">High Performance Computing (HPC)</option>
+                    <option value="cybersecurity">Cybersecurity</option>
+                    <option value="ai">Artificial Intelligence (AI)</option>
+                </select>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
+
+            <!-- Undergraduate Major -->
+            <div class="chat-bubble user" id="userQuestionUndergradMajor" style="display:none;">
+                <label for="undergrad_major">What is your current major in undergrad?</label>
+                <select id="undergrad_major" name="undergrad_major" required>
+                    <option value="">--Select Major--</option>
+                    <option value="cse">Computer Science and Engineering (CSE)</option>
+                    <option value="cs">Computer Science (CS)</option>
+                    <option value="ce">Computer Engineering (CE)</option>
+                    <option value="ai">Artificial Intelligence (AI)</option>
+                    <option value="eee">Electrical and Electronics Engineering (EEE)</option>
+                    <option value="ee">Electrical Engineering (EE)</option>
+                    <option value="math">Mathematics (Math major)</option>
+                    <option value="statistics">Statistics (Statistics major)</option>
+                    <option value="ds">Data Science (DS major)</option>
+                    <option value="it">Information Technology (IT major)</option>
+                </select>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
+            
+
+             <!-- CGPA -->
+             <div class="chat-bubble user" id="userQuestionCGPA" style="display:none;">
+                <label for="cgpa">What is your CGPA?</label>
+                <input type="number" step="0.01" id="cgpa" name="cgpa" min="0" max="10" required placeholder="Enter your CGPA">
+                <small>Min: 0, Max: 10</small>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
+
+            <!-- GRE Score -->
+            <div class="chat-bubble user" id="userQuestionGRE" style="display:none;">
+                <label for="gre">What is your GRE score?</label>
+                <input type="number" id="gre" name="gre" min="0" max="340" required placeholder="Enter your GRE score">
+                <small>Min: 0, Max: 340</small>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
+
+           
+            <!-- TOEFL Score -->
+            <div class="chat-bubble user" id="userQuestionTOEFL" style="display:none;">
+                <label for="toefl">What is your TOEFL score?</label>
+                <input type="number" id="toefl" name="toefl" min="0" max="120" required placeholder="Enter your TOEFL score">
+                <small>Min: 0, Max: 120</small>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
+
+            <!-- Research Work -->
+            <div class="chat-bubble user" id="userQuestionResearch" style="display:none;">
+                <label for="research_done">Have you done any research or published research papers?</label>
+                <select id="research_done" name="research_done" required>
+                    <option value="">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
+
+            <!-- Work Experience -->
+            <div class="chat-bubble user" id="userQuestionWorkExperience" style="display:none;">
+                <label for="work_experience">Do you have any work experience?</label>
+                <select id="work_experience" name="work_experience" required>
+                    <option value="">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+                <button type="button" class="next-btn" onclick="showNextQuestion()">Next</button>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="chat-bubble user" id="submitButton" style="display:none;">
+                <input type="submit" value="Submit" class="submit-btn">
+            </div>
+
+            <!-- Recommendations Section -->
+            <div class="chat-bubble bot" id="recommendationsBubble" style="display:none;">
+                <div id="safeUniversities">
+                    <h3>Safe Universities</h3>
+                    <ul></ul>
+                </div>
+                <div id="targetUniversities">
+                    <h3>Target Universities</h3>
+                    <ul></ul>
+                </div>
+                <div id="ambitiousUniversities">
+                    <h3>Ambitious Universities</h3>
+                    <ul></ul>
+                </div>
+            </div>
+
+        </div>
+    </form>
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>
+
